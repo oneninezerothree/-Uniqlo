@@ -17,7 +17,7 @@
           <span class="imgBorder">
             <img alt=" 用户头像" src="//img02.yiguo.com/e/web/150703/00781/140145/no-pic.jpg">
           </span>
-          <a href="javascript:;">
+          <a href="javascript:;" @click="toLogin()">
             <p class="name">登录/注册</p>
           </a>
         </div>
@@ -153,6 +153,16 @@
 export default {
 	created() {
 		this.$store.state.isShowMHeader = false;
+		this.$store.state.isShowMFooter = true;
+	},
+	methods:{
+	  toLogin(){
+	    // 编程式导航
+	    this.$router.push({
+	      name: 'login'
+	    })
+	    // console.log(this)
+	  }
 	},
 };
 </script>

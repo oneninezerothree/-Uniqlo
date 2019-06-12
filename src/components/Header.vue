@@ -1,5 +1,5 @@
 <template>
-		<div class="header first-screen-top" style="padding-left: 2.2rem;" v-if="isShowMHeader">
+		<div class="header first-screen-top" style="padding-left: 2.2rem;" v-show="isShowMHeader">
 			<div class="first-screen-search">
 				<a href="javascript:;" class="btn"></a>
 				<span class="btn-search">请输入商品名称</span>
@@ -23,6 +23,7 @@ export default{
 </script>
 
 <style>
+
 .first-screen-top {
 	z-index: 100;
 	position: fixed;

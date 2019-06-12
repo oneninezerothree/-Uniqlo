@@ -40,7 +40,7 @@ export default {
 	created() {
 		this.getShopList();
 		this.$store.state.isShowMHeader = true;
-		this.$store.state.isShowMfooter = true;
+		this.$store.state.isShowMFooter = true;
 		// console.log(this.$store.state)
 	},
 	data() {
@@ -64,3 +64,8 @@ export default {
 	}
 };
 </script>
+<style>
+	.home{
+		width: 100%;
+	}
+</style>

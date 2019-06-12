@@ -1,7 +1,7 @@
 <template>
   <div id="app">
 </script>
-    <router-view/>
+   <router-view/>
 		<Header/>
 		<Footer/>
 		<Totop/>
@@ -28,6 +28,7 @@ export default Vue.extend({
 	padding: 0;
 }
 #app {
+	width: 100%;
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
