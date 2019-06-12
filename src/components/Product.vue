@@ -3,7 +3,7 @@
 		<a class="floor-img" v-if="pic"><img :src="pic" /></a>
 		<div class="product-list clear">
 			<div class="product-list-in" v-if="con">
-				<div class="proitem" v-for="(item, index) in con.data" v-if="item.fenlei===title">
+				<div class="proitem" v-for="(item, index) in con.data" v-show="item.fenlei===title" :key="index">
 					<div class="pic">
 						<a href="javascript:;" class="pic-a"><img :src="item.SmallPic" /></a>
 						<div class="saletip" v-if="item.PromotionTag">
