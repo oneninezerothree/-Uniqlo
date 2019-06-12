@@ -1,11 +1,13 @@
 <template>
   <div id="app">
+</script>
     <router-view/>
 		<Header/>
 		<Footer/>
   </div>
 </template>
 <script>
+
 import Vue from 'vue';
 import Header from './components/Header.vue';
 import Footer from './components/Footer.vue';
@@ -30,7 +32,21 @@ export default Vue.extend({
   color: #2c3e50;
 	margin-bottom: 6.666666rem;
 }
-html{
-    font-size:30px;
+
+
+
+img {
+    border: 0;
+    vertical-align: middle;
 }
+// #nav {
+//   padding: 30px;
+//   a {
+//     font-weight: bold;
+//     color: #2c3e50;
+//     &.router-link-exact-active {
+//       color: #42b983;
+//     }
+//   }
+// }
 </style>
