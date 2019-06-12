@@ -1,17 +1,21 @@
 <template>
-	<div class="group-floor">
-		<!---->
+	<div class="group-floor" >
+		<a class="floor-img" v-if="pic"><img :src="pic" /></a>
 		<div class="product-list clear">
-			<div class="product-list-in" v-if=" getdata.data">
-				<div class="proitem" v-for="(item,index) in getdata.data.data">
+			<div class="product-list-in" v-if="con">
+				<div class="proitem" v-for="(item, index) in con.data">
 					<div class="pic">
 						<a href="javascript:;" class="pic-a"><img :src="item.SmallPic" /></a>
-						<div class="saletip" v-if="item.PromotionTag"><span>{{item.PromotionTag}}</span></div>
+						<div class="saletip" v-if="item.PromotionTag">
+							<span>{{ item.PromotionTag }}</span>
+						</div>
 					</div>
 					<div class="info">
-						<p class="name"><a href="javascript:;">{{item.goodsName}}</a></p>
+						<p class="name">
+							<a href="javascript:;">{{ item.goodsName }}</a>
+						</p>
 						<div class="price">
-							<strong>¥{{item.SellPrice}}</strong>
+							<strong>¥{{ item.SellPrice }}</strong>
 							<i class="price-addcart"></i>
 						</div>
 					</div>
@@ -22,27 +26,28 @@
 </template>
 
 <script>
-	import { mapGetters } from 'vuex'
-	export default{
-		name:'product',
-		props:['con'],
-		data(){
-			return{
-				shopList2:{}
-			}
-		},
-		computed: {
-			...mapGetters([
-				'getdata'
-			])
-		},
-		methods: {
-			
-		},
-	}
+import { mapGetters } from 'vuex';
+export default {
+	name: 'product',
+	props: ['con','pic'],
+	data() {
+		return {
+			shopList2: {}
+		};
+	},
+	computed: {
+		...mapGetters(['getdata'])
+	},
+	methods: {}
+};
 </script>
 
 <style>
+.group-floor .floor-img,
+.group-floor .floor-img img {
+	width: 100%;
+	height: 7.2rem;
+}
 .group-floor .product-list {
 	overflow: hidden;
 	width: 100%;
@@ -157,7 +162,6 @@
 	position: relative;
 }
 .group-floor .proitem .name {
-    font-size: .4rem;
+	font-size: 0.4rem;
 }
-
 </style>

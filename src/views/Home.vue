@@ -3,8 +3,10 @@
 		<Banner />
 		<Nav />
 		<Poster />
-		<Product />
-		<test :con='shopList'></test>;
+		<Product :con='getdata.data'/>
+		<Product :con='getdata.data':pic='pic1'/>
+		<Product :con='getdata.data':pic='pic2'/>
+		<!-- <test :con='shopList'></test>; -->
 	</div>
 </template>
 
@@ -15,7 +17,8 @@ import Nav from '@/components/Nav.vue';
 import Poster from '@/components/Poster.vue';
 import Product from '@/components/Product.vue';
 import request from "../libs/request";
-import test from "@/components/test.vue"
+import { mapGetters } from 'vuex';
+// import test from "@/components/test.vue"
 export default {
 	name: 'home',
 	components: {
@@ -23,7 +26,7 @@ export default {
 		Nav,
 		Poster,
 		Product,
-		test
+		// test
 	},
 	created() {
 		this.getShopList();
@@ -31,11 +34,12 @@ export default {
 	},
 	data() {
 		return {
-			shopList: {
-				pic:'https://img09.yiguoimg.com/d/items/2019/190606/9710950652290758_1125x344.gif?w=1125&h=344'
-			}
+			pic1:'https://img11.yiguoimg.com/d/items/2019/190606/9288738192336582_1125x652.jpg?w=1125&h=652',
+			pic2:'https://img10.yiguoimg.com/d/items/2019/190304/9288737491592804_1125x652.jpg?w=1125&h=652'
+			
 		};
 	},
+	
 	methods: {
 		async getShopList() {
 			const { g, p } = request;
@@ -44,6 +48,9 @@ export default {
 			});
 			this.$store.state.shopList = data;
 		}
-	}
+	},
+	computed: {
+		...mapGetters(['getdata'])
+	},
 };
 </script>
