@@ -1,0 +1,682 @@
+{
+    "CanNoReasonToReturn": false,
+    "CanNoReasonToReturnText": "不支持7天无理由退货",
+    "CommodityId": 1,
+    "CommodityName": "SunMoon泰国金枕头冷冻榴莲果肉300g",
+    "CommodityPromotions": [],
+    "DeliveryTips": "16:00 前完成订单，预计明日(6月12日)送达",
+    "Pictures": [
+        "https://img10.yiguoimg.com/d/items/2018/180807/9288727914423559_500.jpg",
+        "https://img10.yiguoimg.com/d/items/2018/180807/9288727914456327_500.jpg",
+        "https://img10.yiguoimg.com/d/items/2018/180807/9288727914390791_500.jpg"
+    ],
+    "PlaceOfOrigin": "泰国",
+    "PromotionType": 0,
+    "ShippingAddress": "广东 广州市 天河区",
+    "SmallPic": "https://img14.yiguoimg.com/d/items/2018/180807/9288727914489095_300.jpg",
+    "SubTitle": "就像现剥的榴莲肉一样绵糯香甜",
+    "Unit": "盒"
+},
+{
+    "CanNoReasonToReturn": false,
+    "CanNoReasonToReturnText": "不支持7天无理由退货",
+    "CommodityId": 1,
+    "CommodityName": "越南红心火龙果2个410g以上/个(大果)",
+    "CommodityPromotions": [
+        {
+            "IsJump": false,
+            "PromotionId": "8fd572a2-2498-458d-80ba-6cefe0e2a9e2",
+            "PromotionLevels": [],
+            "PromotionTitle": "特惠促销",
+            "PromotionType": 1,
+            "PromotionTypeText": "优惠",
+            "Sort": 1,
+        }
+    ],
+    "DeliveryTips": "16:00 前完成订单，预计明日(6月12日)送达",
+    "Pictures": [
+        "https://img10.yiguoimg.com/d/items/2019/190329/9288737695704701_500.jpg",
+        "https://img13.yiguoimg.com/d/items/2019/190329/9288737695671933_500.jpg",
+        "https://img10.yiguoimg.com/d/items/2019/190329/9288737695737469_500.jpg"
+    ],
+    "PlaceOfOrigin": "越南",
+    "PromotionType": 0,
+    "ShippingAddress": "广东 广州市 天河区",
+    "SmallPic": "https://img11.yiguoimg.com/d/items/2019/190329/9288737695639165_300.jpg",
+    "SubTitle": "嫩滑多汁 清甜回味",
+    "Unit": "盒"
+},
+{
+    "CanNoReasonToReturn": false,
+    "CanNoReasonToReturnText": "不支持7天无理由退货",
+    "CommodityId": 1,
+    "CommodityName": "Zespri佳沛新西兰阳光金奇异果6个(114-134g/个)",
+    "CommodityPromotions": [
+        {
+            "IsJump": false,
+            "PromotionId": "01c30b39-7cd6-400c-b4ad-914e0e4f50f3",
+            "PromotionLevels": [
+                {
+                    "LevelTitle": "满2件减10",
+                }
+            ],
+            "PromotionTitle": "2份立减10元",
+            "PromotionType": 1,
+            "PromotionTypeText": "优惠",
+            "Sort": 1
+        }
+    ],
+    "DeliveryTips": "16:00 前完成订单，预计明日(6月12日)送达",
+    "Pictures": [
+        "https://img09.yiguoimg.com/d/items/2019/190528/9288738114217660_500.jpg",
+        "https://img09.yiguoimg.com/d/items/2019/190412/9288737767302796_500.jpg",
+        "https://img11.yiguoimg.com/d/items/2019/190412/9288737767335564_500.jpg"
+    ],
+    "PlaceOfOrigin": "新西兰",
+    "PromotionType": 0,
+    "ShippingAddress": "广东 广州市 天河区",
+    "SubTitle": "软糯香甜 一口甜蜜滋味",
+    "Unit": "盒"
+},
+{
+    "CanNoReasonToReturn": false,
+    "CanNoReasonToReturnText": "不支持7天无理由退货",
+    "CommodityId": 1,
+    "CommodityName": "埃及橙10个260g以上/个(大果)",
+    "CommodityPromotions": [],
+    "DeliveryTips": "16:00 前完成订单，预计明日(6月12日)送达",
+    "Pictures": [
+        "https://img11.yiguoimg.com/d/items/2019/190329/9288737685317245_500.jpg",
+        "https://img14.yiguoimg.com/d/items/2019/190329/9288737685251709_500.jpg",
+        "https://img14.yiguoimg.com/d/items/2019/190329/9288737685284477_500.jpg"
+    ],
+    "PlaceOfOrigin": "埃及",
+    "PromotionType": 0,
+    "ShippingAddress": "广东 广州市 天河区",
+    "SubTitle": "酸中带甜 榨汁能手",
+    "Unit": "盒"
+},
+{
+    "CanNoReasonToReturn": false,
+    "CanNoReasonToReturnText": "不支持7天无理由退货",
+    "CommodityId": 1,
+    "CommodityName": "山东栖霞红富士苹果9个约200g/个",
+    "CommodityPromotions": [],
+    "DeliveryTips": "16:00 前完成订单，预计明日(6月12日)送达",
+    "Pictures": [
+        "https://img10.yiguoimg.com/d/items/2019/190401/9288737709336193_500.jpg",
+        "https://img13.yiguoimg.com/d/items/2019/190329/9288737671620221_500.jpg",
+        "https://img13.yiguoimg.com/d/items/2019/190329/9288737671554685_500.jpg"
+    ],
+    "PlaceOfOrigin": "山东栖霞",
+    "PromotionType": 0,
+    "ShippingAddress": "广东 广州市 天河区",
+    "SubTitle": "果肉脆甜紧实，口感不逊阿克苏",
+    "Unit": "盒"
+},
+{
+    "CanNoReasonToReturn": false,
+    "CanNoReasonToReturnText": "不支持7天无理由退货",
+    "CommodityId": 1,
+    "CommodityName": "海南薄皮脆甜西州蜜瓜1个约1.4kg/个",
+    "CommodityPromotions": [],
+    "DeliveryTips": "16:00 前完成订单，预计明日(6月12日)送达",
+    "Pictures": [
+        "https://img13.yiguoimg.com/d/items/2019/190401/9288737712842369_500.jpg",
+        "https://img14.yiguoimg.com/d/items/2019/190401/9288737712875137_500.jpg",
+        "https://img14.yiguoimg.com/d/items/2019/190401/9288737712907905_500.jpg"
+    ],
+    "PlaceOfOrigin": "海南三亚",
+    "PromotionType": 0,
+    "ShippingAddress": "广东 广州市 天河区",
+    "SubTitle": "薄皮脆甜 果汁丰沛",
+    "Unit": "份"
+},
+{
+    "CanNoReasonToReturn": false,
+    "CanNoReasonToReturnText": "不支持7天无理由退货",
+    "CommodityId": 1,
+    "CommodityName": "海南水仙芒4个(200g以上/个)",
+    "CommodityPromotions": [],
+    "DeliveryTips": "16:00 前完成订单，预计明日(6月12日)送达",
+    "Pictures": [
+        "https://img10.yiguoimg.com/d/items/2019/190329/9288737678403197_500.jpg",
+        "https://img10.yiguoimg.com/d/items/2019/190329/9288737678435965_500.jpg",
+        "https://img09.yiguoimg.com/d/items/2019/190329/9288737678468733_500.jpg"
+    ],
+    "PlaceOfOrigin": "海南",
+    "PromotionType": 0,
+    "ShippingAddress": "广东 广州市 天河区",
+    "SubTitle": "肉厚丝少甜度高，核小皮薄肉质嫩",
+    "Unit": "盒"
+},
+{
+    "CanNoReasonToReturn": false,
+    "CanNoReasonToReturnText": "不支持7天无理由退货",
+    "CommodityId": 1,
+    "CommodityName": "原膳澳洲精选S级牛腩块500g",
+    "CommodityPromotions": [
+        {
+            "IsJump": false,
+            "PromotionId": "ea7b1012-0093-4d89-8d70-2d4aebd9b03b",
+            "PromotionLevels": [
+                {
+                    "LevelTitle": "满2件减33",
+                }
+            ],
+            "PromotionTitle": "第2件9.9元 ",
+            "PromotionType": 1,
+            "PromotionTypeText": "优惠",
+            "Sort": 1,
+        }
+    ],
+    "DeliveryTips": "16:00 前完成订单，预计明日(6月12日)送达",
+    "Pictures": [
+        "https://img11.yiguoimg.com/d/items/2018/180929/9288731968218429_500.jpg",
+        "https://img12.yiguoimg.com/e/items/2016/161129/9288698979590525_500.jpg",
+        "https://img12.yiguoimg.com/d/items/2018/180929/9288731968349501_500.jpg"
+    ],
+    "PlaceOfOrigin": "澳大利亚",
+    "PromotionType": 0,
+    "ShippingAddress": "广东 广州市 天河区",
+    "SmallPic": "https://img09.yiguoimg.com/d/items/2018/180929/9288731968185661_300.jpg",
+    "Spec": "500g/包",
+    "Speces": [
+        {
+            "CommodityId": 1,
+            "CommodityName": "原膳澳洲精选S级牛腩块500g",
+            "Spec": "500g/包",
+        }
+    ],
+    "SubTitle": "天然牧草草饲 肥瘦比约3:7",
+    "Unit": "包"
+},
+{
+    "CanNoReasonToReturn": false,
+    "CanNoReasonToReturnText": "不支持7天无理由退货",
+    "CommodityId": 1,
+    "CommodityName": "澳奎澳洲金钱腱500g",
+    "CommodityPromotions": [
+        {
+            "IsJump": false,
+            "PromotionId": "627b4b4a-a3ea-4218-9bac-a3af79b7bfaa",
+            "PromotionLevels": [
+                {
+                    "LevelTitle": "满2件减29.5",
+                }
+            ],
+            "PromotionTitle": "第2件半价",
+            "PromotionType": 1,
+            "PromotionTypeText": "优惠",
+            "Sort": 1,
+        }
+    ],
+    "DeliveryTips": "16:00 前完成订单，预计明日(6月12日)送达",
+    "Pictures": [
+        "https://img11.yiguoimg.com/d/items/2019/190506/9288737927997094_500.jpg",
+        "https://img10.yiguoimg.com/d/items/2019/190505/9288737922590373_500.jpg",
+        "https://img12.yiguoimg.com/d/items/2019/190505/9570212896286373_635x632.jpg"
+    ],
+    "PlaceOfOrigin": "澳大利亚",
+    "PromotionType": 0,
+    "ShippingAddress": "广东 广州市 天河区",
+    "SmallPic": "https://img14.yiguoimg.com/d/items/2018/180929/9288731968382269_300.jpg",
+    "Spec": "500g/包",
+    "Speces": [
+        {
+            "CommodityId": 1,
+            "CommodityName": "澳奎澳洲金钱腱500g",
+            "Spec": "500g/包",
+        }
+    ],
+    "SubTitle": "",
+    "Unit": "包"
+},00
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    "CanNoReasonToReturn": false,
+    "CanNoReasonToReturnText": "不支持7天无理由退货",
+    "CommodityId": 1,
+    "CommodityName": "原膳澳洲原切牛肉丝120g",
+    "CommodityPromotions": [
+        {
+            "IsJump": false,
+            "PromotionId": "7523bc9e-739c-4d5d-b8c9-a6b3aca0c7ae",
+            "PromotionLevels": [
+                {
+                    "LevelTitle": "满3件减27",
+                }
+            ],
+            "PromotionTitle": "3件5折",
+            "PromotionType": 1,
+            "PromotionTypeText": "优惠",
+            "Sort": 1,
+        }
+    ],
+    "DeliveryTips": "16:00 前完成订单，预计明日(6月12日)送达",
+    "Pictures": [
+        "https://img11.yiguoimg.com/d/items/2018/180705/9288725529273573_500.jpg",
+        "https://img13.yiguoimg.com/d/items/2018/180705/9288725529306341_500.jpg",
+        "https://img12.yiguoimg.com/d/items/2018/180705/9288725529339109_500.jpg"
+    ],
+    "PlaceOfOrigin": "澳洲",
+    "PromotionType": 0,
+    "ShippingAddress": "广东 广州市 天河区",
+    "SmallPic": "https://img09.yiguoimg.com/d/items/2018/180705/9288725529240805_300.jpg",
+    "Spec": "120g/包",
+    "Speces": [
+        {
+            "CommodityId": 1,
+            "CommodityName": "原膳澳洲原切牛肉丝120g",
+            "Spec": "120g/包",
+        }
+    ],
+    "SubTitle": "",
+    "Unit": "包"
+},
+{
+    "CanNoReasonToReturn": false,
+    "CanNoReasonToReturnText": "不支持7天无理由退货",
+    "CommodityId": 1,
+    "CommodityName": "原膳澳洲精修牛腱子1kg",
+    "CommodityPromotions": [],
+    "DeliveryTips": "16:00 前完成订单，预计明日(6月12日)送达",
+    "Pictures": [
+        "https://img12.yiguoimg.com/d/items/2019/190116/9288736791766576_500.jpg",
+        "https://img09.yiguoimg.com/d/items/2019/190116/9288736791733808_500.jpg",
+        "https://img10.yiguoimg.com/d/items/2019/190116/9288736791799344_500.jpg"
+    ],
+    "PlaceOfOrigin": "澳洲",
+    "PromotionType": 0,
+    "ShippingAddress": "广东 广州市 天河区",
+    "SmallPic": "https://img13.yiguoimg.com/d/items/2019/190116/9288736791701040_300.jpg",
+    "Spec": "1kg/包",
+    "Speces": [
+        {
+            "CommodityId": 1,
+            "CommodityName": "原膳澳洲精修牛腱子1kg",
+            "Spec": "1kg/包",
+        }
+    ],
+    "SubTitle": "肉富含蛋白质，氨基酸",
+    "Unit": "包"
+},
+{
+    "CanNoReasonToReturn": false,
+    "CanNoReasonToReturnText": "不支持7天无理由退货",
+    "CommodityId": 1,
+    "CommodityName": "原膳南美白虾仁（中）250g",
+    "CommodityPromotions": [
+        {
+            "IsJump": false,
+            "PromotionId": "0a2f1ebe-963e-4141-90aa-a38ba01bd0f4",
+            "PromotionLevels": [
+                {
+                    "LevelTitle": "满2件减13",
+                }
+            ],
+            "PromotionTitle": "多份优惠 ",
+            "PromotionType": 1,
+            "PromotionTypeText": "优惠",
+            "Sort": 1,
+        }
+    ],
+    "DeliveryTips": "16:00 前完成订单，预计明日(6月12日)送达",
+    "Pictures": [
+        "https://img09.yiguoimg.com/d/items/2017/171130/9288715872969598_500.jpg",
+        "https://img10.yiguoimg.com/d/items/2017/171130/9288715872904062_500.jpg",
+        "https://img09.yiguoimg.com/d/items/2018/180706/9288725601232102_500.jpg"
+    ],
+    "PlaceOfOrigin": "广东",
+    "PromotionType": 0,
+    "ShippingAddress": "广东 广州市 天河区",
+    "SmallPic": "https://img14.yiguoimg.com/d/items/2017/171130/9288715872871294_300.jpg",
+    "Spec": "0.25kg/袋",
+    "Speces": [
+        {
+            "CommodityId": 1,
+            "CommodityName": "原膳南美白虾仁（中）250g",
+            "Spec": "0.25kg/袋"
+        }
+    ],
+    "SubTitle": "饱满弹嫩，营养低脂",
+    "Unit": "袋"
+},
+{
+    "CanNoReasonToReturn": false,
+    "CanNoReasonToReturnText": "不支持7天无理由退货",
+    "CommodityId": 1,
+    "CommodityName": "越南冷冻巴沙鱼片280g",
+    "CommodityPromotions": [
+        {
+            "IsJump": false,
+            "PromotionId": "c24181f4-9b94-42e2-8658-d40860f256c1",
+            "PromotionLevels": [
+                {
+                    "LevelTitle": "满2件减3.7",
+                }
+            ],
+            "PromotionTitle": "多份优惠",
+            "PromotionType": 1,
+            "PromotionTypeText": "优惠",
+            "Sort": 1,
+        }
+    ],
+    "DeliveryTips": "16:00 前完成订单，预计明日(6月12日)送达",
+    "Pictures": [
+        "https://img13.yiguoimg.com/d/items/2017/171109/9288714859225961_500.jpg",
+        "https://img14.yiguoimg.com/d/items/2017/171109/9288714859193193_500.jpg",
+        "https://img11.yiguoimg.com/d/items/2017/171109/9288714859160425_500.jpg"
+    ],
+    "PlaceOfOrigin": "越南",
+    "PromotionType": 0,
+    "ShippingAddress": "广东 广州市 天河区",
+    "SmallPic": "https://img11.yiguoimg.com/d/items/2017/171109/9288714859127657_300.jpg",
+    "Spec": "280g/袋",
+    "Speces": [
+        {
+            "CommodityId": 1,
+            "CommodityName": "越南冷冻巴沙鱼片280g",
+            "Spec": "280g/袋",
+        }
+    ],
+    "SubTitle": "无骨无刺 低脂高蛋白 弹嫩细滑 健身食材",
+    "Unit": "袋"
+},
+{
+    "CanNoReasonToReturn": false,
+    "CanNoReasonToReturnText": "不支持7天无理由退货",
+    "CommodityId": 1,
+    "CommodityName": "美威欧式原味三文鱼排（2片装）250g",
+    "CommodityPromotions": [
+        {
+            "IsJump": false,
+            "PromotionId": "4ec36eb4-8bff-4cce-96ad-8e11138a0ca0",
+            "PromotionLevels": [
+                {
+                    "LevelTitle": "满2件减43",
+                }
+            ],
+            "PromotionTitle": "多份优惠",
+            "PromotionType": 1,
+            "PromotionTypeText": "优惠",
+            "Sort": 1,
+        }
+    ],
+    "DeliveryTips": "16:00 前完成订单，预计明日(6月12日)送达",
+    "Pictures": [
+        "https://img12.yiguoimg.com/d/items/2018/180613/9288724483351757_500.jpg",
+        "https://img10.yiguoimg.com/d/items/2018/181101/9288733414892897_500.jpg",
+        "https://img09.yiguoimg.com/d/items/2018/180613/9288724483286221_500.jpg"
+    ],
+    "PlaceOfOrigin": "智利",
+    "PromotionType": 0,
+    "ShippingAddress": "广东 广州市 天河区",
+    "SmallPic": "https://img09.yiguoimg.com/d/items/2018/180613/9288724483253453_300.jpg",
+    "Spec": "250g/包",
+    "Speces": [
+        {
+            "CommodityId": 1,
+            "CommodityName": "美威欧式原味三文鱼排（2片装）250g",
+            "Spec": "250g/包",
+        }
+    ],
+    "SubTitle": "去骨去刺，丰腴鲜香，适煎烤",
+    "Unit": "袋"
+},
+{
+    "CanNoReasonToReturn": false,
+    "CanNoReasonToReturnText": "不支持7天无理由退货",
+    "CommodityId": 1,
+    "CommodityName": "海阳普罗旺斯西红柿2.25kg",
+    "CommodityPromotions": [
+        {
+            "IsJump": true,
+            "PromotionId": "911d5af2-5f81-4f6c-a9cf-9b8b07fece69",
+            "PromotionLevels": [
+                {
+                    "LevelTitle": "满0件减0",
+                }
+            ],
+            "PromotionTitle": "鲜货直发 ",
+            "PromotionType": 2,
+            "PromotionTypeText": "满减",
+            "Sort": 2
+        },
+        {
+            "IsJump": false,
+            "PromotionId": "911d5af2-5f81-4f6c-a9cf-9b8b07fece69",
+            "PromotionLevels": [],
+            "PromotionTitle": "该商品不支持U币抵扣、不能使用优惠券",
+            "PromotionType": 5,
+            "PromotionTypeText": "限制",
+            "Sort": 7,
+        }
+    ],
+    "DeliveryTips": "16:00 前完成订单，预计明日(6月12日)送达",
+    "Pictures": [
+        "https://img13.yiguoimg.com/d/items/2019/190104/9288736404579876_500.jpg",
+        "https://img09.yiguoimg.com/d/items/2019/190104/9288736404514340_500.jpg",
+        "https://img13.yiguoimg.com/d/items/2019/190104/9288736404547108_500.jpg"
+    ],
+    "PlaceOfOrigin": "山东烟台",
+    "PromotionType": 0,
+    "ShippingAddress": "广东 广州市 天河区",
+    "SmallPic": "https://img11.yiguoimg.com/d/items/2019/190104/9288736404481572_300.jpg",
+    "Spec": "2.25kg/份",
+    "Speces": [
+        {
+            "CommodityId": 1,
+            "CommodityName": "海阳普罗旺斯西红柿2.25kg",
+            "Spec": "2.25kg/份",
+        }
+    ],
+    "SubTitle": "产地直发，下单后48小时内发货，仅可与海阳、山东蔬菜合单",
+    "Unit": "份"
+},
+{
+    "CanNoReasonToReturn": false,
+    "CanNoReasonToReturnText": "不支持7天无理由退货",
+    "CommodityId": 1,
+    "CommodityName": "福建水果玉米2kg",
+    "CommodityPromotions": [
+        {
+            "IsJump": true,
+            "PromotionId": "911d5af2-5f81-4f6c-a9cf-9b8b07fece69",
+            "PromotionLevels": [
+                {
+                    "LevelTitle": "满0件减0",
+                }
+            ],
+            "PromotionTitle": "鲜货直发 ",
+            "PromotionType": 2,
+            "PromotionTypeText": "满减",
+            "Sort": 2
+        },
+        {
+            "IsJump": false,
+            "PromotionId": "911d5af2-5f81-4f6c-a9cf-9b8b07fece69",
+            "PromotionLevels": [],
+            "PromotionTitle": "该商品不支持U币抵扣、不能使用优惠券",
+            "PromotionType": 5,
+            "PromotionTypeText": "限制",
+            "Sort": 7,
+        }
+    ],
+    "DeliveryTips": "16:00 前完成订单，预计明日(6月12日)送达",
+    "Pictures": [
+        "https://img14.yiguoimg.com/d/items/2019/190103/9288736387769891_500.jpg",
+        "https://img09.yiguoimg.com/d/items/2019/190103/9288736387802659_500.jpg",
+        "https://img10.yiguoimg.com/d/items/2019/190103/9288736387737123_500.jpg"
+    ],
+    "PlaceOfOrigin": "福建漳州",
+    "PromotionType": 0,
+    "ShippingAddress": "广东 广州市 天河区",
+    "SmallPic": "https://img09.yiguoimg.com/d/items/2019/190103/9288736387704355_300.jpg",
+    "Spec": "2kg/份",
+    "Speces": [
+        {
+            "CommodityId": 1,
+            "CommodityName": "福建水果玉米2kg",
+            "Spec": "2kg/份",
+        }
+    ],
+    "SubTitle": "产地直发，下单后48小时内发货，仅可与福建蔬菜合单",
+    "Unit": "份"
+},
+{
+    "CanNoReasonToReturn": false,
+    "CanNoReasonToReturnText": "不支持7天无理由退货",
+    "CommodityId": 1,
+    "CommodityName": "海阳白玉黄瓜2.5kg",
+    "CommodityPromotions": [
+        {
+            "IsJump": true,
+            "PromotionId": "911d5af2-5f81-4f6c-a9cf-9b8b07fece69",
+            "PromotionLevels": [
+                {
+                    "LevelTitle": "满0件减0",
+                }
+            ],
+            "PromotionTitle": "鲜货直发 ",
+            "PromotionType": 2,
+            "PromotionTypeText": "满减",
+            "Sort": 2
+        },
+        {
+            "IsJump": false,
+            "PromotionId": "911d5af2-5f81-4f6c-a9cf-9b8b07fece69",
+            "PromotionLevels": [],
+            "PromotionTitle": "该商品不支持U币抵扣、不能使用优惠券",
+            "PromotionType": 5,
+            "PromotionTypeText": "限制",
+            "Sort": 7,
+        }
+    ],
+    "DeliveryTips": "16:00 前完成订单，预计明日(6月12日)送达",
+    "Pictures": [
+        "https://img09.yiguoimg.com/d/items/2019/190104/9288736405366308_500.jpg",
+        "https://img10.yiguoimg.com/d/items/2019/190104/9288736405333540_500.jpg",
+        "https://img11.yiguoimg.com/d/items/2019/190104/9288736405300772_500.jpg"
+    ],
+    "PlaceOfOrigin": "山东烟台",
+    "PromotionType": 0,
+    "ShippingAddress": "广东 广州市 天河区",
+    "SmallPic": "https://img11.yiguoimg.com/d/items/2019/190104/9288736405104164_300.jpg",
+    "Spec": "2.5kg/份",
+    "Speces": [
+        {
+            "CommodityId": 1,
+            "CommodityName": "海阳白玉黄瓜2.5kg",
+            "Spec": "2.5kg/份",
+        }
+    ],
+    "SubTitle": "产地直发，下单后48小时内发货，仅可与海阳、山东蔬菜合单",
+    "Unit": "份"
+},
+{
+    "CanNoReasonToReturn": false,
+    "CanNoReasonToReturnText": "不支持7天无理由退货",
+    "CommodityId": 1,
+    "CommodityName": "农百鲜樱桃谷鸭950g",
+    "CommodityPromotions": [
+        {
+            "IsJump": false,
+            "PromotionId": "cda2063f-faeb-4ffb-a3e9-fc9050804584",
+            "PromotionLevels": [
+                {
+                    "LevelTitle": "满2件减29.9",
+                }
+            ],
+            "PromotionTitle": "第2件0元",
+            "PromotionType": 1,
+            "PromotionTypeText": "优惠",
+            "Sort": 1,
+        }
+    ],
+    "DeliveryTips": "16:00 前完成订单，预计明日(6月12日)送达",
+    "Pictures": [
+        "https://img10.yiguoimg.com/d/items/2018/180817/9288729469953297_500.jpg",
+        "https://img14.yiguoimg.com/d/items/2018/180817/9288729469920529_500.jpg",
+        "https://img14.yiguoimg.com/d/items/2018/180817/9288729469986065_500.jpg"
+    ],
+    "PlaceOfOrigin": "上海",
+    "PromotionType": 0,
+    "ShippingAddress": "广东 广州市 天河区",
+    "SmallPic": "https://img14.yiguoimg.com/d/items/2018/180817/9288729469822225_300.jpg",
+    "SubTitle": "瘦肉型鸭种 肉质细嫩",
+    "Unit": "只"
+},
+{
+    "CanNoReasonToReturn": false,
+    "CanNoReasonToReturnText": "不支持7天无理由退货",
+    "CommodityId": 1,
+    "CommodityName": "太阳谷鸡翅中500g",
+    "CommodityPromotions": [
+        {
+            "IsJump": false,
+            "PromotionId": "4f9347c6-47f3-4464-b127-a28b2ddc929a",
+            "PromotionLevels": [
+                {
+                    "LevelTitle": "满2件减10",
+                }
+            ],
+            "PromotionTitle": "2件减10元",
+            "PromotionType": 1,
+            "PromotionTypeText": "优惠",
+            "Sort": 1,
+        }
+    ],
+    "DeliveryTips": "16:00 前完成订单，预计明日(6月12日)送达",
+    "Pictures": [
+        "https://img11.yiguoimg.com/e/items/2017/170523/9288708202832567_500.jpg",
+        "https://img10.yiguoimg.com/e/items/2017/170426/9288706948702874_500.jpg",
+        "https://img09.yiguoimg.com/e/items/2017/170426/9288706948735642_500.jpg"
+    ],
+    "PlaceOfOrigin": "安徽",
+    "PromotionType": 0,
+    "ShippingAddress": "广东 广州市 天河区",
+    "SmallPic": "https://img14.yiguoimg.com/e/items/2017/170523/9288708202799799_300.jpg",
+    "SubTitle": "",
+    "Unit": "袋"
+},
+{
+    "CanNoReasonToReturn": false,
+    "CanNoReasonToReturnText": "不支持7天无理由退货",
+    "CommodityId": 1,
+    "CommodityName": "太阳谷鸡琵琶腿500g",
+    "CommodityPromotions": [],
+    "DeliveryTips": "16:00 前完成订单，预计明日(6月12日)送达",
+    "Pictures": [
+        "https://img10.yiguoimg.com/d/items/2018/180807/9288727885948167_500.jpg",
+        "https://img13.yiguoimg.com/d/items/2018/180807/9288727885915399_500.jpg",
+        "https://img10.yiguoimg.com/d/items/2018/180807/9288727885980935_500.jpg"
+    ],
+    "PlaceOfOrigin": "安徽",
+    "PromotionType": 0,
+    "ShippingAddress": "广东 广州市 天河区",
+    "SmallPic": "https://img12.yiguoimg.com/d/items/2018/180807/9288727885882631_300.jpg",
+    "SubTitle": "",
+    "Unit": "包"
+}

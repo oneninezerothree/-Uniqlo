@@ -1,0 +1,23 @@
+这个文件夹用来放置静态资源，比如图片。
+
+静态资源处理：
+assets和static文件夹的区别
+
+相信有很多人知道vue-cli有两个放置静态资源的地方，分别是src/assets文件夹和static文件夹,这两者的区别很多人可能不太清楚。
+
+assets目录中的文件会被webpack处理解析为模块依赖，只支持相对路径形式。例如，在 
+<img src="./logo.png"> 
+和 
+background: url(./logo.png)中，
+“./logo.png” 是相对的资源路径，将由Webpack解析为模块依赖。
+
+
+
+static/ 目录下的文件并不会被Webpack处理：它们会直接被复制到最终的打包目录（默认是dist/static）下。必须使用绝对路径引用这些文件，这是通过在 config.js 文件中的 build.assetsPublicPath 和 build.assetsSubDirectory 连接来确定的。
+
+任何放在 static/ 中文件需要以绝对路径的形式引用：/static/[filename]。
+
+在我们实际的开发中，总的来说：static放不会变动的文件 assets放可能会变动的文件。
+
+在js数据中如何引用图片
+因为webpack会将图片当做模块来引用，所以在js中需要使用require将图片引用进来，不能直接以字符串的形式。
