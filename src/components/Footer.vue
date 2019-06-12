@@ -1,5 +1,5 @@
 <template>
-	<div class="footer">
+	<div class="footer" v-show="isShowMFooter">
 		<div class="footer-in">
 			<a v-for="(item, index) in tabs" :key="index" class="list" @click="toggleTab(index)">
 				<i class="icon" :style="{ backgroundImage:now===index?'url(' + item.pictureUrl2 + ')':'url(' + item.pictureUrl1 + ')' }"></i>
@@ -12,6 +12,12 @@
 <script>
 import Vue from 'vue';
 export default Vue.extend({
+	computed:{
+	  isShowMfooter(){
+	    // 从仓库获取值到组件
+	    return this.$store.state.isShowMfooter
+	  }
+	},
 	data() {
 		return {
 			now:0,
@@ -45,7 +51,7 @@ export default Vue.extend({
 				},
 				{
 					name: '我的易果',
-					url: '',
+					url: 'me',
 					pictureUrl1:'//img07.yiguoimg.com/e/web/170110/00583/164146/nav_user.png',
 					pictureUrl2:'//img05.yiguoimg.com/e/web/170110/00583/164146/nav_user_active.png',
 				}
@@ -63,9 +69,9 @@ export default Vue.extend({
 	  }
 	},
 	computed:{
-	  isShowMfooter(){
+	  isShowMFooter(){
 	    // 从仓库获取值到组件
-	    return this.$store.state.isShowMfooter
+	    return this.$store.state.isShowMFooter
 	  }
 	}
 });
