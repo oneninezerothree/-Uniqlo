@@ -5,6 +5,7 @@
 				<i class="icon" :style="{ backgroundImage:now===index?'url(' + item.pictureUrl2 + ')':'url(' + item.pictureUrl1 + ')' }"></i>
 				{{ item.name }}
 			</a>
+			
 		</div>
 	</div>
 </template>
