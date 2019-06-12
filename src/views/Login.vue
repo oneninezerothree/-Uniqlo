@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="width: 100%;">
     <div class="wrap">
       <form>
         <div class="input-item">
@@ -179,24 +179,7 @@ export default {
   }
 };
 </script>
-<style>
-html {
-  font-size: 33.3333px;
-}
 
-* {
-  padding: 0;
-  margin: 0;
-  -webkit-text-size-adjust: none;
-}
-div,
-span,
-a,
-header,
-footer {
-  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-}
-</style>
 <style lang="scss" scoped>
 .input-item {
   border: 1px solid #d9dfd5;

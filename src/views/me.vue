@@ -166,19 +166,7 @@ export default {
 	},
 };
 </script>
-<style>
-html {
-  font-size: 33.3333px;
-}
-body {
-  background: #f4f4f4;
-  margin: 0;
-  padding: 0;
-  font-size: 12px;
-  color: #000;
-  font-family: "Avenir", "PingFang SC", "\5FAE\8F6F\96C5\9ED1";
-}
-</style>
+
 
 <style lang='scss' scoped>
 .my .header {
