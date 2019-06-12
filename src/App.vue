@@ -4,6 +4,7 @@
     <router-view/>
 		<Header/>
 		<Footer/>
+		<Totop/>
   </div>
 </template>
 <script>
@@ -11,10 +12,12 @@
 import Vue from 'vue';
 import Header from './components/Header.vue';
 import Footer from './components/Footer.vue';
+import Totop from '@/components/Totop.vue';
 export default Vue.extend({
   components:{
 		Header,
     Footer,
+		Totop,
   }
 })
 </script>
@@ -30,7 +33,7 @@ export default Vue.extend({
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-	margin-bottom: 6.666666rem;
+	margin-bottom: 1.666666rem;
 }
 
 
@@ -39,14 +42,5 @@ img {
     border: 0;
     vertical-align: middle;
 }
-// #nav {
-//   padding: 30px;
-//   a {
-//     font-weight: bold;
-//     color: #2c3e50;
-//     &.router-link-exact-active {
-//       color: #42b983;
-//     }
-//   }
-// }
+
 </style>

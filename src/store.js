@@ -4,19 +4,21 @@ import Vuex from 'vuex';
 Vue.use(Vuex);
 
 export default new Vuex.Store({
-  // 存放数据
-  state: {
-		shopList:[],
-  },
-  mutations: {
+	// 存放数据
+	state: {
+		isShowMHeader: true,
+		isShowMFooter: true,
+		shopList: [],
+	},
+	mutations: {
 
-  },
-  actions: {
+	},
+	actions: {
 
-  },
-		
+	},
+
 	getters: {
-		getdata(state){
+		getdata(state) {
 			return state.shopList;
 		}
 	}

@@ -3,10 +3,15 @@
 		<Banner />
 		<Nav />
 		<Poster />
-		<Product :con='getdata.data'/>
-		<Product :con='getdata.data':pic='pic1'/>
-		<Product :con='getdata.data':pic='pic2'/>
-		<!-- <test :con='shopList'></test>; -->
+		<Product :con="getdata.data" :title="'jinKouShuiGuo'" />
+		<Product :con="getdata.data" :pic="pic1" :title="'haiXianShuiChan'" />
+		<Product :con="getdata.data" :pic="pic2" :title="'xinXianShuCai'" />
+		<Prolist />
+		<Prolist2 :title="'新鲜水果'" :con="getdata.data" :sort="'jinKouShuiGuo'" />
+		<Prolist2 :title="'水产海鲜'" :con="getdata.data" :sort="'haiXianShuiChan'" />
+		<Prolist2 :title="'精选肉类'" :con="getdata.data" :sort="'jingXuanRouLei'" />
+		<Prolist2 :title="'安心蔬菜'" :con="getdata.data" :sort="'xinXianShuCai'" />
+		<End />
 	</div>
 </template>
 
@@ -16,9 +21,11 @@ import Banner from '@/components/Banner.vue';
 import Nav from '@/components/Nav.vue';
 import Poster from '@/components/Poster.vue';
 import Product from '@/components/Product.vue';
-import request from "../libs/request";
+import Prolist from '@/components/Prolist.vue';
+import Prolist2 from '@/components/Prolist2.vue';
+import End from '@/components/End.vue';
+import request from '../libs/request';
 import { mapGetters } from 'vuex';
-// import test from "@/components/test.vue"
 export default {
 	name: 'home',
 	components: {
@@ -26,20 +33,23 @@ export default {
 		Nav,
 		Poster,
 		Product,
-		// test
+		Prolist,
+		Prolist2,
+		End
 	},
 	created() {
 		this.getShopList();
+		this.$store.state.isShowMHeader = true;
+		this.$store.state.isShowMfooter = true;
 		// console.log(this.$store.state)
 	},
 	data() {
 		return {
-			pic1:'https://img11.yiguoimg.com/d/items/2019/190606/9288738192336582_1125x652.jpg?w=1125&h=652',
-			pic2:'https://img10.yiguoimg.com/d/items/2019/190304/9288737491592804_1125x652.jpg?w=1125&h=652'
-			
+			pic1: 'https://img11.yiguoimg.com/d/items/2019/190606/9288738192336582_1125x652.jpg?w=1125&h=652',
+			pic2: 'https://img10.yiguoimg.com/d/items/2019/190304/9288737491592804_1125x652.jpg?w=1125&h=652'
 		};
 	},
-	
+
 	methods: {
 		async getShopList() {
 			const { g, p } = request;
@@ -51,6 +61,6 @@ export default {
 	},
 	computed: {
 		...mapGetters(['getdata'])
-	},
+	}
 };
 </script>

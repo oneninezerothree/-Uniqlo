@@ -1,17 +1,26 @@
 <template>
-	<div class="first-screen-top" style="padding-left: 2.2rem;">
-		<div class="first-screen-search">
-			<a href="javascript:;" class="btn"></a>
-			<span class="btn-search">请输入商品名称</span>
+		<div class="header first-screen-top" style="padding-left: 2.2rem;" v-if="isShowMHeader">
+			<div class="first-screen-search">
+				<a href="javascript:;" class="btn"></a>
+				<span class="btn-search">请输入商品名称</span>
+			</div>
+			<a class="first-screen-adress" style="width: 2.2rem;">
+				广州
+				<i class="arrow"></i>
+			</a>
 		</div>
-		<a class="first-screen-adress" style="width: 2.2rem;">
-			广州
-			<i class="arrow"></i>
-		</a>
-	</div>
 </template>
 
-<script></script>
+<script>
+export default{
+	computed:{
+	  isShowMHeader(){
+	    // 从仓库获取值到组件
+	    return this.$store.state.isShowMHeader
+	  }
+	}
+}
+</script>
 
 <style>
 .first-screen-top {
@@ -64,12 +73,12 @@
 	color: #fff;
 }
 .first-screen-adress .arrow {
-    display: inline-block;
-    width: .24rem;
-    height: .13rem;
-    margin: 0 0 0 .16rem;
-    vertical-align: .09rem;
-    background: url(//img05.yiguoimg.com/e/web/161222/01858/110628/arrow.png) no-repeat;
-    background-size: 100% 100%;
+	display: inline-block;
+	width: 0.24rem;
+	height: 0.13rem;
+	margin: 0 0 0 0.16rem;
+	vertical-align: 0.09rem;
+	background: url(//img05.yiguoimg.com/e/web/161222/01858/110628/arrow.png) no-repeat;
+	background-size: 100% 100%;
 }
 </style>
