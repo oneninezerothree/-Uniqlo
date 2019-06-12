@@ -27,7 +27,7 @@ export default Vue.extend({
 				},
 				{
 					name: '分类',
-					url: '',
+					url: 'category',
 					pictureUrl1:'//img07.yiguoimg.com/d/web/180508/01315/170504/nav_classify.png',
 					pictureUrl2:'//img07.yiguoimg.com/e/web/170110/00583/164146/nav_classify_active.png',
 				},

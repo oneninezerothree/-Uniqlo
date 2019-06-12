@@ -4,8 +4,8 @@
 		<Nav />
 		<Poster />
 		<Product :con='getdata.data'/>
-		<Product :con='getdata.data':pic='pic1'/>
-		<Product :con='getdata.data':pic='pic2'/>
+		<Product :con='getdata.data' :pic='pic1'/>
+		<Product :con='getdata.data' :pic='pic2'/>
 		<!-- <test :con='shopList'></test>; -->
 	</div>
 </template>
