@@ -25,7 +25,12 @@
       <ul class="listContent">
         <li>
           <div class="commodityBox">
-            <a v-for="(item,index) in list.jinkou" :key="index" href="javascript:;" class="commodityList">
+            <a
+              v-for="(item,index) in list.jinkou"
+              :key="index"
+              href="javascript:;"
+              class="commodityList"
+            >
               <img :src="item.imgUrl">
               {{item.names}}
             </a>
@@ -33,7 +38,12 @@
         </li>
         <li>
           <div class="commodityBox">
-            <a v-for="(item,index) in list.guochan" :key="index" href="javascript:;" class="commodityList">
+            <a
+              v-for="(item,index) in list.guochan"
+              :key="index"
+              href="javascript:;"
+              class="commodityList"
+            >
               <img :src="item.imgUrl">
               {{item.names}}
             </a>
@@ -41,7 +51,12 @@
         </li>
         <li>
           <div class="commodityBox">
-            <a v-for="(item,index) in list.roulei" :key="index" href="javascript:;" class="commodityList">
+            <a
+              v-for="(item,index) in list.roulei"
+              :key="index"
+              href="javascript:;"
+              class="commodityList"
+            >
               <img :src="item.imgUrl">
               {{item.names}}
             </a>
@@ -49,7 +64,12 @@
         </li>
         <li>
           <div class="commodityBox">
-            <a v-for="(item,index) in list.qinlei" :key="index" href="javascript:;" class="commodityList">
+            <a
+              v-for="(item,index) in list.qinlei"
+              :key="index"
+              href="javascript:;"
+              class="commodityList"
+            >
               <img :src="item.imgUrl">
               {{item.names}}
             </a>
@@ -57,7 +77,12 @@
         </li>
         <li>
           <div class="commodityBox">
-            <a v-for="(item,index) in list.haixian" :key="index" href="javascript:;" class="commodityList">
+            <a
+              v-for="(item,index) in list.haixian"
+              :key="index"
+              href="javascript:;"
+              class="commodityList"
+            >
               <img :src="item.imgUrl">
               {{item.names}}
             </a>
@@ -65,7 +90,12 @@
         </li>
         <li>
           <div class="commodityBox">
-            <a v-for="(item,index) in list.meishi" :key="index" href="javascript:;" class="commodityList">
+            <a
+              v-for="(item,index) in list.meishi"
+              :key="index"
+              href="javascript:;"
+              class="commodityList"
+            >
               <img :src="item.imgUrl">
               {{item.names}}
             </a>
@@ -73,7 +103,12 @@
         </li>
         <li>
           <div class="commodityBox">
-            <a v-for="(item,index) in listgaodian" :key="index" href="javascript:;" class="commodityList">
+            <a
+              v-for="(item,index) in listgaodian"
+              :key="index"
+              href="javascript:;"
+              class="commodityList"
+            >
               <img :src="item.imgUrl">
               {{item.names}}
             </a>
@@ -81,7 +116,12 @@
         </li>
         <li>
           <div class="commodityBox">
-            <a v-for="(item,index) in list.shucai" :key="index" href="javascript:;" class="commodityList">
+            <a
+              v-for="(item,index) in list.shucai"
+              :key="index"
+              href="javascript:;"
+              class="commodityList"
+            >
               <img :src="item.imgUrl">
               {{item.names}}
             </a>
@@ -89,7 +129,12 @@
         </li>
         <li>
           <div class="commodityBox">
-            <a v-for="(item,index) in list.sushi" :key="index" href="javascript:;" class="commodityList">
+            <a
+              v-for="(item,index) in list.sushi"
+              :key="index"
+              href="javascript:;"
+              class="commodityList"
+            >
               <img :src="item.imgUrl">
               {{item.names}}
             </a>
@@ -97,7 +142,12 @@
         </li>
         <li>
           <div class="commodityBox">
-            <a v-for="(item,index) in list.zahuo" :key="index" href="javascript:;" class="commodityList">
+            <a
+              v-for="(item,index) in list.zahuo"
+              :key="index"
+              href="javascript:;"
+              class="commodityList"
+            >
               <img :src="item.imgUrl">
               {{item.names}}
             </a>
@@ -105,7 +155,12 @@
         </li>
         <li>
           <div class="commodityBox">
-            <a v-for="(item,index) in list.lipin" :key="index" href="javascript:;" class="commodityList">
+            <a
+              v-for="(item,index) in list.lipin"
+              :key="index"
+              href="javascript:;"
+              class="commodityList"
+            >
               <img :src="item.imgUrl">
               {{item.names}}
             </a>
@@ -314,27 +369,27 @@ export default {
               "https://img12.yiguoimg.com/e/items/2017/170615/9288709152481999_220.jpg"
           },
           {
-            names: "牛排", 
+            names: "牛排",
             imgUrl:
               "https://img10.yiguoimg.com/d/items/2018/180803/9570202619127043_220.jpg"
           },
           {
-            names: "进口牛肉", 
+            names: "进口牛肉",
             imgUrl:
               "https://img09.yiguoimg.com/e/items/2017/170615/9288709152318159_220.jpg"
           },
           {
-            names: "国产牛肉", 
+            names: "国产牛肉",
             imgUrl:
               "https://img11.yiguoimg.com/e/items/2017/170615/9288709152285391_220.jpg"
           },
           {
-            names: "猪肉", 
+            names: "猪肉",
             imgUrl:
               "https://img12.yiguoimg.com/e/items/2017/170615/9288709152252623_220.jpg"
           },
           {
-            names: "羊肉", 
+            names: "羊肉",
             imgUrl:
               "https://img14.yiguoimg.com/e/items/2017/170615/9288709152219855_220.jpg"
           },
@@ -348,445 +403,185 @@ export default {
           {
             names: "全部",
             imgUrl:
-              "https://img09.yiguoimg.com/e/items/2017/170612/9288708943225548_220.jpg"
+              "https://img12.yiguoimg.com/e/items/2017/170616/9288709173519056_220.jpg"
           },
           {
-            names: "奇异果",
+            names: "鸡",
             imgUrl:
-              "https://img12.yiguoimg.com/e/items/2017/170612/9288708943127244_220.jpg"
+              "https://img13.yiguoimg.com/e/items/2017/170615/9288709152449231_220.jpg"
           },
           {
-            names: "车厘子",
+            names: "鸭",
             imgUrl:
-              "https://img14.yiguoimg.com/e/items/2017/170612/9288708942996172_220.jpg"
+              "https://img13.yiguoimg.com/e/items/2017/170615/9288709152416463_220.jpg"
           },
           {
-            names: "牛油果",
+            names: "鹅/鸽/特色禽类",
             imgUrl:
-              "https://img12.yiguoimg.com/e/items/2017/170612/9288708943192780_220.jpg"
+              "https://img12.yiguoimg.com/e/items/2017/170615/9288709152383695_220.jpg"
           },
           {
-            names: "提子",
+            names: "蛋",
             imgUrl:
-              "https://img10.yiguoimg.com/e/items/2017/170615/9288709129511631_220.jpg"
-          },
-          {
-            names: "苹果",
-            imgUrl:
-              "https://img14.yiguoimg.com/e/items/2017/170615/9288709129478863_220.jpg"
-          },
-          {
-            names: "梨",
-            imgUrl:
-              "https://img12.yiguoimg.com/e/items/2017/170615/9288709129446095_220.jpg"
-          },
-          {
-            names: "柑桔橙柚",
-            imgUrl:
-              "https://img11.yiguoimg.com/e/items/2017/170615/9288709129413327_220.jpg"
-          },
-          {
-            names: "山竹",
-            imgUrl:
-              "https://img12.yiguoimg.com/e/items/2017/170615/9288709128921807_220.jpg"
-          },
-
-          {
-            names: "香蕉",
-            imgUrl:
-              "https://img09.yiguoimg.com/e/items/2017/170615/9288709128889039_220.jpg"
-          },
-          {
-            names: "火龙果",
-            imgUrl:
-              "https://img12.yiguoimg.com/e/items/2017/170615/9288709128856271_220.jpg"
-          },
-          {
-            names: "椰子",
-            imgUrl:
-              "https://img13.yiguoimg.com/e/items/2017/170615/9288709128823503_220.jpg"
-          },
-          {
-            names: "芒果",
-            imgUrl:
-              "https://img13.yiguoimg.com/e/items/2017/170615/9288709128790735_220.jpg"
-          },
-          {
-            names: "凤梨",
-            imgUrl:
-              "https://img14.yiguoimg.com/e/items/2017/170615/9288709128692431_220.jpg"
-          },
-          {
-            names: "榴莲",
-            imgUrl:
-              "https://img11.yiguoimg.com/e/items/2017/170615/9288709128659663_220.jpg"
-          },
-
-          {
-            names: "时令水果",
-            imgUrl:
-              "https://img14.yiguoimg.com/e/items/2017/170615/9288709128594127_220.jpg"
-          },
-          {
-            names: "原箱水果",
-            imgUrl:
-              "https://img09.yiguoimg.com/e/items/2017/170615/9288709128561359_220.jpg"
+              "https://img11.yiguoimg.com/e/items/2017/170615/9288709152350927_220.jpg"
           }
         ],
         haixian: [
           {
             names: "全部",
             imgUrl:
-              "https://img09.yiguoimg.com/e/items/2017/170612/9288708943225548_220.jpg"
+              "https://img13.yiguoimg.com/e/items/2017/170619/9288709276607187_220.jpg"
           },
           {
-            names: "奇异果",
+            names: "鳕鱼",
             imgUrl:
-              "https://img12.yiguoimg.com/e/items/2017/170612/9288708943127244_220.jpg"
+              "https://img13.yiguoimg.com/d/items/2018/180815/9570204213290255_220.jpg"
           },
           {
-            names: "车厘子",
+            names: "虾仁",
             imgUrl:
-              "https://img14.yiguoimg.com/e/items/2017/170612/9288708942996172_220.jpg"
+              "https://img13.yiguoimg.com/d/items/2018/180803/9570202576037123_220.jpg"
           },
           {
-            names: "牛油果",
+            names: "鱼",
             imgUrl:
-              "https://img12.yiguoimg.com/e/items/2017/170612/9288708943192780_220.jpg"
+              "https://img12.yiguoimg.com/e/items/2017/170616/9288709169193680_220.jpg"
           },
           {
-            names: "提子",
+            names: "三文鱼",
             imgUrl:
-              "https://img10.yiguoimg.com/e/items/2017/170615/9288709129511631_220.jpg"
+              "https://img14.yiguoimg.com/e/items/2017/170616/9288709169128144_220.jpg"
           },
           {
-            names: "苹果",
+            names: "虾",
             imgUrl:
-              "https://img14.yiguoimg.com/e/items/2017/170615/9288709129478863_220.jpg"
+              "https://img11.yiguoimg.com/e/items/2017/170616/9288709169062608_220.jpg"
           },
           {
-            names: "梨",
+            names: "蟹",
             imgUrl:
-              "https://img12.yiguoimg.com/e/items/2017/170615/9288709129446095_220.jpg"
+              "https://img11.yiguoimg.com/e/items/2017/170616/9288709169029840_220.jpg"
           },
           {
-            names: "柑桔橙柚",
+            names: "贝",
             imgUrl:
-              "https://img11.yiguoimg.com/e/items/2017/170615/9288709129413327_220.jpg"
+              "https://img11.yiguoimg.com/e/items/2017/170616/9288709168702160_220.jpg"
           },
           {
-            names: "山竹",
+            names: "活鲜",
             imgUrl:
-              "https://img12.yiguoimg.com/e/items/2017/170615/9288709128921807_220.jpg"
-          },
-
-          {
-            names: "香蕉",
-            imgUrl:
-              "https://img09.yiguoimg.com/e/items/2017/170615/9288709128889039_220.jpg"
+              "https://img13.yiguoimg.com/e/items/2017/170616/9288709168669392_220.jpg"
           },
           {
-            names: "火龙果",
+            names: "海参",
             imgUrl:
-              "https://img12.yiguoimg.com/e/items/2017/170615/9288709128856271_220.jpg"
+              "https://img11.yiguoimg.com/d/items/2019/190423/9288737833494167_220.jpg"
           },
           {
-            names: "椰子",
+            names: "加工水产",
             imgUrl:
-              "https://img13.yiguoimg.com/e/items/2017/170615/9288709128823503_220.jpg"
-          },
-          {
-            names: "芒果",
-            imgUrl:
-              "https://img13.yiguoimg.com/e/items/2017/170615/9288709128790735_220.jpg"
-          },
-          {
-            names: "凤梨",
-            imgUrl:
-              "https://img14.yiguoimg.com/e/items/2017/170615/9288709128692431_220.jpg"
-          },
-          {
-            names: "榴莲",
-            imgUrl:
-              "https://img11.yiguoimg.com/e/items/2017/170615/9288709128659663_220.jpg"
-          },
-
-          {
-            names: "时令水果",
-            imgUrl:
-              "https://img14.yiguoimg.com/e/items/2017/170615/9288709128594127_220.jpg"
-          },
-          {
-            names: "原箱水果",
-            imgUrl:
-              "https://img09.yiguoimg.com/e/items/2017/170615/9288709128561359_220.jpg"
+              "https://img14.yiguoimg.com/e/items/2017/170616/9288709168472784_220.jpg"
           }
         ],
         meishi: [
           {
             names: "全部",
             imgUrl:
-              "https://img09.yiguoimg.com/e/items/2017/170612/9288708943225548_220.jpg"
+              "https://img12.yiguoimg.com/e/items/2017/170619/9288709291909843_220.jpg"
           },
           {
-            names: "奇异果",
+            names: "独家秘制",
             imgUrl:
-              "https://img12.yiguoimg.com/e/items/2017/170612/9288708943127244_220.jpg"
+              "https://img10.yiguoimg.com/e/items/2017/170616/9288709173158608_220.jpg"
           },
           {
-            names: "车厘子",
+            names: "中华美食",
             imgUrl:
-              "https://img14.yiguoimg.com/e/items/2017/170612/9288708942996172_220.jpg"
-          },
-          {
-            names: "牛油果",
-            imgUrl:
-              "https://img12.yiguoimg.com/e/items/2017/170612/9288708943192780_220.jpg"
-          },
-          {
-            names: "提子",
-            imgUrl:
-              "https://img10.yiguoimg.com/e/items/2017/170615/9288709129511631_220.jpg"
-          },
-          {
-            names: "苹果",
-            imgUrl:
-              "https://img14.yiguoimg.com/e/items/2017/170615/9288709129478863_220.jpg"
-          },
-          {
-            names: "梨",
-            imgUrl:
-              "https://img12.yiguoimg.com/e/items/2017/170615/9288709129446095_220.jpg"
-          },
-          {
-            names: "柑桔橙柚",
-            imgUrl:
-              "https://img11.yiguoimg.com/e/items/2017/170615/9288709129413327_220.jpg"
-          },
-          {
-            names: "山竹",
-            imgUrl:
-              "https://img12.yiguoimg.com/e/items/2017/170615/9288709128921807_220.jpg"
-          },
-
-          {
-            names: "香蕉",
-            imgUrl:
-              "https://img09.yiguoimg.com/e/items/2017/170615/9288709128889039_220.jpg"
-          },
-          {
-            names: "火龙果",
-            imgUrl:
-              "https://img12.yiguoimg.com/e/items/2017/170615/9288709128856271_220.jpg"
-          },
-          {
-            names: "椰子",
-            imgUrl:
-              "https://img13.yiguoimg.com/e/items/2017/170615/9288709128823503_220.jpg"
-          },
-          {
-            names: "芒果",
-            imgUrl:
-              "https://img13.yiguoimg.com/e/items/2017/170615/9288709128790735_220.jpg"
-          },
-          {
-            names: "凤梨",
-            imgUrl:
-              "https://img14.yiguoimg.com/e/items/2017/170615/9288709128692431_220.jpg"
-          },
-          {
-            names: "榴莲",
-            imgUrl:
-              "https://img11.yiguoimg.com/e/items/2017/170615/9288709128659663_220.jpg"
-          },
-
-          {
-            names: "时令水果",
-            imgUrl:
-              "https://img14.yiguoimg.com/e/items/2017/170615/9288709128594127_220.jpg"
-          },
-          {
-            names: "原箱水果",
-            imgUrl:
-              "https://img09.yiguoimg.com/e/items/2017/170615/9288709128561359_220.jpg"
+              "https://img12.yiguoimg.com/e/items/2017/170616/9288709172994768_220.jpg"
           }
         ],
         gaodian: [
           {
             names: "全部",
             imgUrl:
-              "https://img09.yiguoimg.com/e/items/2017/170612/9288708943225548_220.jpg"
+              "https://img12.yiguoimg.com/e/items/2017/170619/9288709271954131_220.jpg"
           },
           {
-            names: "奇异果",
+            names: "奶酪",
             imgUrl:
-              "https://img12.yiguoimg.com/e/items/2017/170612/9288708943127244_220.jpg"
+              "https://img13.yiguoimg.com/e/items/2017/170616/9288709169816272_220.jpg"
           },
           {
-            names: "车厘子",
+            names: "乳品",
             imgUrl:
-              "https://img14.yiguoimg.com/e/items/2017/170612/9288708942996172_220.jpg"
+              "https://img09.yiguoimg.com/e/items/2017/170616/9288709169685200_220.jpg"
           },
           {
-            names: "牛油果",
+            names: "面包",
             imgUrl:
-              "https://img12.yiguoimg.com/e/items/2017/170612/9288708943192780_220.jpg"
+              "https://img12.yiguoimg.com/e/items/2017/170619/9288709300593363_220.jpg"
           },
           {
-            names: "提子",
+            names: "蛋糕",
             imgUrl:
-              "https://img10.yiguoimg.com/e/items/2017/170615/9288709129511631_220.jpg"
+              "https://img11.yiguoimg.com/e/items/2017/170616/9288709169619664_220.jpg"
           },
           {
-            names: "苹果",
+            names: "甜点",
             imgUrl:
-              "https://img14.yiguoimg.com/e/items/2017/170615/9288709129478863_220.jpg"
-          },
-          {
-            names: "梨",
-            imgUrl:
-              "https://img12.yiguoimg.com/e/items/2017/170615/9288709129446095_220.jpg"
-          },
-          {
-            names: "柑桔橙柚",
-            imgUrl:
-              "https://img11.yiguoimg.com/e/items/2017/170615/9288709129413327_220.jpg"
-          },
-          {
-            names: "山竹",
-            imgUrl:
-              "https://img12.yiguoimg.com/e/items/2017/170615/9288709128921807_220.jpg"
-          },
-
-          {
-            names: "香蕉",
-            imgUrl:
-              "https://img09.yiguoimg.com/e/items/2017/170615/9288709128889039_220.jpg"
-          },
-          {
-            names: "火龙果",
-            imgUrl:
-              "https://img12.yiguoimg.com/e/items/2017/170615/9288709128856271_220.jpg"
-          },
-          {
-            names: "椰子",
-            imgUrl:
-              "https://img13.yiguoimg.com/e/items/2017/170615/9288709128823503_220.jpg"
-          },
-          {
-            names: "芒果",
-            imgUrl:
-              "https://img13.yiguoimg.com/e/items/2017/170615/9288709128790735_220.jpg"
-          },
-          {
-            names: "凤梨",
-            imgUrl:
-              "https://img14.yiguoimg.com/e/items/2017/170615/9288709128692431_220.jpg"
-          },
-          {
-            names: "榴莲",
-            imgUrl:
-              "https://img11.yiguoimg.com/e/items/2017/170615/9288709128659663_220.jpg"
-          },
-
-          {
-            names: "时令水果",
-            imgUrl:
-              "https://img14.yiguoimg.com/e/items/2017/170615/9288709128594127_220.jpg"
-          },
-          {
-            names: "原箱水果",
-            imgUrl:
-              "https://img09.yiguoimg.com/e/items/2017/170615/9288709128561359_220.jpg"
+              "https://img11.yiguoimg.com/e/items/2017/170616/9288709168636624_220.jpg"
           }
         ],
         shucai: [
           {
             names: "全部",
             imgUrl:
-              "https://img09.yiguoimg.com/e/items/2017/170612/9288708943225548_220.jpg"
+              "https://img12.yiguoimg.com/e/items/2017/170616/9288709170143952_220.jpg"
           },
           {
-            names: "奇异果",
+            names: "叶菜类",
             imgUrl:
-              "https://img12.yiguoimg.com/e/items/2017/170612/9288708943127244_220.jpg"
+              "https://img14.yiguoimg.com/e/items/2017/170616/9288709170799312_220.jpg"
           },
           {
-            names: "车厘子",
+            names: "根茎类",
             imgUrl:
-              "https://img14.yiguoimg.com/e/items/2017/170612/9288708942996172_220.jpg"
+              "https://img14.yiguoimg.com/e/items/2017/170616/9288709170766544_220.jpg"
           },
           {
-            names: "牛油果",
+            names: "茄果/瓜果类",
             imgUrl:
-              "https://img12.yiguoimg.com/e/items/2017/170612/9288708943192780_220.jpg"
+              "https://img13.yiguoimg.com/e/items/2017/170616/9288709170733776_220.jpg"
           },
           {
-            names: "提子",
+            names: "花菜/豆类",
             imgUrl:
-              "https://img10.yiguoimg.com/e/items/2017/170615/9288709129511631_220.jpg"
+              "https://img11.yiguoimg.com/e/items/2017/170616/9288709170701008_220.jpg"
           },
           {
-            names: "苹果",
+            names: "菌菇",
             imgUrl:
-              "https://img14.yiguoimg.com/e/items/2017/170615/9288709129478863_220.jpg"
+              "https://img11.yiguoimg.com/e/items/2017/170616/9288709170668240_220.jpg"
           },
           {
-            names: "梨",
+            names: "沙拉菜",
             imgUrl:
-              "https://img12.yiguoimg.com/e/items/2017/170615/9288709129446095_220.jpg"
+              "https://img12.yiguoimg.com/e/items/2017/170616/9288709170635472_220.jpg"
           },
           {
-            names: "柑桔橙柚",
+            names: "豆制品",
             imgUrl:
-              "https://img11.yiguoimg.com/e/items/2017/170615/9288709129413327_220.jpg"
+              "https://img14.yiguoimg.com/e/items/2017/170616/9288709170504400_220.jpg"
           },
           {
-            names: "山竹",
+            names: "葱蒜类",
             imgUrl:
-              "https://img12.yiguoimg.com/e/items/2017/170615/9288709128921807_220.jpg"
-          },
-
-          {
-            names: "香蕉",
-            imgUrl:
-              "https://img09.yiguoimg.com/e/items/2017/170615/9288709128889039_220.jpg"
+              "https://img13.yiguoimg.com/e/items/2017/170616/9288709170438864_220.jpg"
           },
           {
-            names: "火龙果",
+            names: "蔬菜组合",
             imgUrl:
-              "https://img12.yiguoimg.com/e/items/2017/170615/9288709128856271_220.jpg"
-          },
-          {
-            names: "椰子",
-            imgUrl:
-              "https://img13.yiguoimg.com/e/items/2017/170615/9288709128823503_220.jpg"
-          },
-          {
-            names: "芒果",
-            imgUrl:
-              "https://img13.yiguoimg.com/e/items/2017/170615/9288709128790735_220.jpg"
-          },
-          {
-            names: "凤梨",
-            imgUrl:
-              "https://img14.yiguoimg.com/e/items/2017/170615/9288709128692431_220.jpg"
-          },
-          {
-            names: "榴莲",
-            imgUrl:
-              "https://img11.yiguoimg.com/e/items/2017/170615/9288709128659663_220.jpg"
-          },
-
-          {
-            names: "时令水果",
-            imgUrl:
-              "https://img14.yiguoimg.com/e/items/2017/170615/9288709128594127_220.jpg"
-          },
-          {
-            names: "原箱水果",
-            imgUrl:
-              "https://img09.yiguoimg.com/e/items/2017/170615/9288709128561359_220.jpg"
+              "https://img09.yiguoimg.com/e/items/2017/170616/9288709170406096_220.jpg"
           }
         ],
         sushi: [
