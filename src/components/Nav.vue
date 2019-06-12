@@ -1,7 +1,7 @@
 <template>
 	<div class="nav">
 		<div class="first-screen-menu clear" style="background-color: rgb(255, 255, 255);">
-			<a class="one" v-for="(item,index) in navList">
+			<a class="one" v-for="(item,index) in navList" :key="index">
 				<i><img :src="item.pictureUrl" /></i>
 				<p class="one-title" style="color: rgb(51, 51, 51);">{{item.title}}</p>
 			</a>
