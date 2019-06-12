@@ -6,10 +6,10 @@
           v-for="(tab,index) in tabName"
           :key="index"
           :class="{'active':index==activeIdx}"
-          @click="show(index),changeStaer()"
+          @click="[show(index),changeState()]"
         >
           {{tab.title}}
-          <i v-if="tab.flag" :class=" state? 'drop' :'litre' "></i>
+          <i v-if="tab.flag" :class="state? 'drop' :'litre' "></i>
         </div>
       </div>
     </div>
@@ -26,7 +26,7 @@
           <!---->
           <p class="price">
             <span class="priceRed">{{item.SellPrice}}</span>
-            <span class="standard" style="text-decoration: line-through;">{{item.OriginalPrice}}</span>
+            <span class="standard" style="text-decoration: line-through;" v-if="item.SellPrice<item.OriginalPrice">{{item.OriginalPrice}}</span>
             <span class="standard">{{item.Spec}}</span>
             <span class="addCart"></span>
             <!---->
@@ -46,7 +46,8 @@ import request from "../libs/request";
 export default {
   created() {
     this.getShopList();
-    console.log(this.$store);
+    this.$store.state.isShowMHeader = false;
+    this.$store.state.isShowMFooter = true;
   },
   data() {
     return {
@@ -67,7 +68,7 @@ export default {
       this.activeIdx = index;
       
     },
-    changeStaer(){
+    changeState(){
         if(this.activeIdx===2){
            this.state=!this.state; 
         }

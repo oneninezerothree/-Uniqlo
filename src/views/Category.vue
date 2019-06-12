@@ -43,6 +43,10 @@
 <script>
 import {magGetter, mapGetters} from 'vuex';
 export default {
+	created(){
+		this.$store.state.isShowMHeader = true;
+		this.$store.state.isShowMFooter = true;
+	},
   data() {
     return {
       flag: null,
