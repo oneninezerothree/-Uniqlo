@@ -1,5 +1,23 @@
 <template>
   <div class="search">
+    <div class="searchTop line-bottom">
+      <form action="." class="searchInp">
+        <i class="icon"></i>
+        <input type="text" style="display: none;">
+        <input
+          type="search"
+          name="search"
+          id="search"
+          placeholder="请输入商品名称"
+          maxlength="30"
+          class="name active"
+          v-model="search"
+        >
+        <i class="close" style="display: none;"></i>
+      </form>
+      <span class="txt" @click="searchIt">搜索</span>
+    </div>
+    <div class="boxBg" style="display: none;"></div>
     <div class="searchContent clear">
       <div class="nav">
         <ul class="navList">
@@ -44,7 +62,7 @@
 import { magGetter, mapGetters } from "vuex";
 export default {
   created() {
-    this.$store.state.isShowMHeader = true;
+    this.$store.state.isShowMHeader = false;
     this.$store.state.isShowMFooter = true;
 		this.$store.state.isloading = false;
   },
@@ -52,6 +70,7 @@ export default {
     return {
       flag: null,
       idx: 0,
+      search: null,
       goodsList: [
         {
           fenlei: "进口水果",
@@ -492,63 +511,54 @@ export default {
             },
             {
               fenlei: "xinXianShuCai",
-
               names: "叶菜类",
               imgUrl:
                 "https://img14.yiguoimg.com/e/items/2017/170616/9288709170799312_220.jpg"
             },
             {
               fenlei: "xinXianShuCai",
-
               names: "根茎类",
               imgUrl:
                 "https://img14.yiguoimg.com/e/items/2017/170616/9288709170766544_220.jpg"
             },
             {
               fenlei: "xinXianShuCai",
-
               names: "茄果/瓜果类",
               imgUrl:
                 "https://img13.yiguoimg.com/e/items/2017/170616/9288709170733776_220.jpg"
             },
             {
               fenlei: "xinXianShuCai",
-
               names: "花菜/豆类",
               imgUrl:
                 "https://img11.yiguoimg.com/e/items/2017/170616/9288709170701008_220.jpg"
             },
             {
               fenlei: "xinXianShuCai",
-
               names: "菌菇",
               imgUrl:
                 "https://img11.yiguoimg.com/e/items/2017/170616/9288709170668240_220.jpg"
             },
             {
               fenlei: "xinXianShuCai",
-
               names: "沙拉菜",
               imgUrl:
                 "https://img12.yiguoimg.com/e/items/2017/170616/9288709170635472_220.jpg"
             },
             {
               fenlei: "xinXianShuCai",
-
               names: "豆制品",
               imgUrl:
                 "https://img14.yiguoimg.com/e/items/2017/170616/9288709170504400_220.jpg"
             },
             {
               fenlei: "xinXianShuCai",
-
               names: "葱蒜类",
               imgUrl:
                 "https://img13.yiguoimg.com/e/items/2017/170616/9288709170438864_220.jpg"
             },
             {
               fenlei: "xinXianShuCai",
-
               names: "蔬菜组合",
               imgUrl:
                 "https://img09.yiguoimg.com/e/items/2017/170616/9288709170406096_220.jpg"
@@ -661,6 +671,9 @@ export default {
     tab(index) {
       this.idx = index;
       //   console.log(this.idx);
+    },
+    searchIt(){
+      this.$router.push({name:'list',query:{keyword:this.search}})
     }
   },
   computed: {
@@ -685,79 +698,180 @@ li {
   height: 0;
   clear: both;
 }
-.search .searchContent {
-  background: #fff;
-  padding-top: 1.35rem;
-  .nav {
+.search {
+  .searchTop {
     position: fixed;
+    top: 0;
     left: 0;
-    top: 1.35rem;
-    float: left;
-    width: 2.77rem;
-    height: 100%;
-    overflow: hidden;
-    z-index: 98;
-  }
-  .navList {
-    width: 3.27rem;
-    height: 100%;
-    background: #f4f4f4;
-    padding: 0rem 0.5rem 100px 0;
-    overflow-y: scroll;
-    box-sizing: border-box;
-    li {
-      padding: 0.64rem 0rem 0.64rem 0;
-      text-align: center;
-      font-size: 0.42rem;
-      color: #333;
-      height: 1.7rem;
-      box-sizing: border-box;
-    }
-    li.active {
-      color: #11b57c;
-      border-left: 0.1rem solid #11b57c;
-      background: #fff;
-      box-sizing: border-box;
-    }
-  }
-  .listContent {
+    height: 1.35rem;
     width: 100%;
-    height: auto;
     background: #fff;
-    padding-left: 2.77rem;
+    padding: 0.25rem 0.32rem;
     box-sizing: border-box;
-    li {
-      width: 100%;
-      overflow: hidden;
-      .commodityBox {
-        width: 100%;
-        padding: 0.5rem 0rem 50px 0.6rem;
-        box-sizing: border-box;
-        overflow-y: scroll;
-        overflow-x: hidden;
+    z-index: 102;
+    .searchInp {
+      position: relative;
+      height: 0.9rem;
+      width: 10.2rem;
+      background: #f4f4f4;
+      border-radius: 20px;
+      padding: 0 0.7rem 0 1.05rem;
+      box-sizing: border-box;
+      input {
+        width: 8rem;
+        height: 100%;
+        background: #f4f4f4;
+        border: none;
+        border-radius: 20px;
+        font-size: 0.4rem;
+        line-height: 0.4rem;
+        padding-top: 0.05rem;
       }
-      .commodityList {
-        float: left;
+      input.active {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .icon {
+        position: absolute;
+        left: 0.38rem;
+        top: 50%;
+        margin-top: -0.215rem;
         display: inline-block;
-        width: 2.76rem;
-        height: 3.18rem;
-        position: relative;
-        padding-top: 2rem;
+        width: 0.43rem;
+        height: 0.43rem;
+        background: url(//img05.yiguoimg.com/d/web/170830/00913/153914/search.png);
+        background-size: 100% 100%;
+      }
+      .close {
+        position: absolute;
+        right: 0.28rem;
+        top: 50%;
+        margin-top: -0.2rem;
+        display: inline-block;
+        width: 0.4rem;
+        height: 0.4rem;
+        background: url(//img05.yiguoimg.com/d/web/170830/00913/153914//icon-close.png);
+        background-size: 100% 100%;
+      }
+    }
+    .txt {
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding-right: 0.32rem;
+      display: block;
+      height: 1.35rem;
+      width: 1.3rem;
+      text-align: center;
+      line-height: 1.35rem;
+      font-size: 0.46rem;
+      color: #11b57c;
+    }
+  }
+
+  .boxBg {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 101;
+  }
+  .searchContent {
+    background: #fff;
+    padding-top: 1.35rem;
+    .nav {
+      position: fixed;
+      left: 0;
+      top: 1.35rem;
+      float: left;
+      width: 2.77rem;
+      height: 100%;
+      overflow: hidden;
+      z-index: 98;
+    }
+    .navList {
+      width: 3.27rem;
+      height: 100%;
+      background: #f4f4f4;
+      padding: 0rem 0.5rem 100px 0;
+      overflow-y: scroll;
+      box-sizing: border-box;
+      li {
+        padding: 0.64rem 0rem 0.64rem 0;
         text-align: center;
+        font-size: 0.42rem;
+        color: #333;
+        height: 1.7rem;
         box-sizing: border-box;
-        font-size: 0.38rem;
-        color: #808080;
-        text-decoration: none;
-        img {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 1.89rem;
-          height: 1.89rem;
-          margin: 0 0.43rem;
+      }
+      li.active {
+        color: #11b57c;
+        border-left: 0.1rem solid #11b57c;
+        background: #fff;
+        box-sizing: border-box;
+      }
+    }
+    .listContent {
+      width: 100%;
+      height: auto;
+      background: #fff;
+      padding-left: 2.77rem;
+      box-sizing: border-box;
+      li {
+        width: 100%;
+        overflow: hidden;
+        .commodityBox {
+          width: 100%;
+          padding: 0.5rem 0rem 50px 0.6rem;
+          box-sizing: border-box;
+          overflow-y: scroll;
+          overflow-x: hidden;
+        }
+        .commodityList {
+          float: left;
+          display: inline-block;
+          width: 2.76rem;
+          height: 3.18rem;
+          position: relative;
+          padding-top: 2rem;
+          text-align: center;
+          box-sizing: border-box;
+          font-size: 0.38rem;
+          color: #808080;
+          text-decoration: none;
+          img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 1.89rem;
+            height: 1.89rem;
+            margin: 0 0.43rem;
+          }
         }
       }
     }
   }
+}
+input {
+    display: block;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+}
+.line-bottom:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background: #ddd;
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
 }
 </style>

@@ -18,7 +18,7 @@
         class="productContent line-bottom"
         v-for="(item,index) in getdata.data.data"
         :key="index"
-        v-show ="getRenderList(item.zhonglei,item.fenlei)"
+        v-show="getRenderList(item.CommodityName,item.zhonglei,item.fenlei)"
         @click="goTo(item.CommodityId)"
       >
         <div class="img">
@@ -62,7 +62,7 @@ export default {
       idx: 0,
       activeIdx: 0,
       state: true,
-      num:1,//升序1，降序2
+      num: 1, //升序1，降序2
       tabName: [
         { title: "销量", flag: false },
         { title: "新品", flag: false },
@@ -70,38 +70,42 @@ export default {
       ],
       renderList: [],
       keyword: "",
-      keyword2:"",
+      keyword2: ""
     };
   },
   methods: {
-    show(index,numbers) {
+    show(index, numbers) {
       this.idx = index;
       this.activeIdx = index;
-      if(numbers == 1){
-        this.num = 2
+      if (numbers == 1) {
+        this.num = 2;
       } else if (numbers == 2) {
-        this.num =1
+        this.num = 1;
       }
     },
     getKeyword() {
       return this.$route.query.keyword;
     },
-    getRenderList(names,fenleis) {
-      let a =  names.indexOf(this.keyword);
+    getRenderList(names, zhonglei, fenleis) {
       // console.log('query:----',this.$route.query.keyword2)
       // console.log('fenleis:----',fenleis);
-      if (
-        this.keyword == "全部" &&
-        this.$route.query.keyword2 == fenleis
-      ) {
-        return true;
-      } else if (
-        a > -1  &&
-        this.$route.query.keyword2 == fenleis
-      ) {
-        return true;
+      if (this.$route.query.keyword2 != undefined) {
+        let a = zhonglei.indexOf(this.keyword);
+
+        if (this.keyword == "全部" && this.$route.query.keyword2 == fenleis) {
+          return true;
+        } else if (a > -1 && this.$route.query.keyword2 == fenleis) {
+          return true;
+        } else {
+          return false;
+        }
       } else {
-        return false;
+        let a = names.indexOf(this.keyword);
+        if (a > -1) {
+          return true;
+        } else {
+          return false;
+        }
       }
     },
     changeStaer() {
@@ -119,34 +123,31 @@ export default {
 			this.$store.state.isloading = false;
     },
     goTo(data) {
-      this.$router.push({ name: 'detail', params: { goodsid: data }});
+      this.$router.push({ name: "detail", params: { goodsid: data } });
     },
-    sortList(idx,data,num){
+    sortList(idx, data, num) {
       //排序方法
       //通过idx判断用价格、销量、code来排序
-      if(idx == 0){
+      if (idx == 0) {
         //用销量排序
-        data.sort(function(a,b){
-          return a.sale - b.sale
-        })
-      }
-      else if (idx == 1){
+        data.sort(function(a, b) {
+          return a.sale - b.sale;
+        });
+      } else if (idx == 1) {
         //用商品code排序
-        data.sort(function(a,b){
-          return a.CommodityCode - b.CommodityCode
-        })
-      }
-      else if(idx == 2 && num==1){
+        data.sort(function(a, b) {
+          return a.CommodityCode - b.CommodityCode;
+        });
+      } else if (idx == 2 && num == 1) {
         //用商品售价升序
-        data.sort(function(a,b){
-          return a.SellPrice - b.SellPrice
-        })
-      }
-      else if(idx == 2 && num==2){
+        data.sort(function(a, b) {
+          return a.SellPrice - b.SellPrice;
+        });
+      } else if (idx == 2 && num == 2) {
         //用商品售价降序
-        data.sort(function(a,b){
-          return b.SellPrice - a.SellPrice
-        })
+        data.sort(function(a, b) {
+          return b.SellPrice - a.SellPrice;
+        });
       }
     }
   },
