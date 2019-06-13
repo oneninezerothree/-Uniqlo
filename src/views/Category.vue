@@ -46,6 +46,7 @@ export default {
   created() {
     this.$store.state.isShowMHeader = true;
     this.$store.state.isShowMFooter = true;
+		this.$store.state.isloading = false;
   },
   data() {
     return {

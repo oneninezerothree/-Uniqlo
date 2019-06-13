@@ -31,8 +31,8 @@
           <i class="label" v-if="item.PromotionTag">{{item.PromotionTag}}</i>
           <!---->
           <p class="price">
-            <span class="priceRed">{{item.SellPrice}}</span>
-            <span class="standard" style="text-decoration: line-through;">{{item.OriginalPrice}}</span>
+            <span class="priceRed">¥{{item.SellPrice}}</span>
+            <span class="standard" style="text-decoration: line-through;" v-if="item.SellPrice<item.OriginalPrice">¥{{item.OriginalPrice}}</span>
             <span class="standard">{{item.Spec}}</span>
             <span class="addCart"></span>
             <!---->
@@ -51,8 +51,10 @@ import request from "../libs/request";
 
 export default {
   created() {
+		this.$store.state.isShowMHeader = false;
+		this.$store.state.isShowMFooter = false;
     this.keyword = this.getKeyword();
-    
+    this.$store.state.isloading = true;
     this.getShopList();
   },
   data() {
@@ -114,6 +116,7 @@ export default {
           "https://www.easy-mock.com/mock/5cf6683dd44e0c5e99486044/example/yiguolist#!method=get"
       });
       this.$store.state.shopList = data;
+			this.$store.state.isloading = false;
     },
     goTo(data) {
       this.$router.push({ name: 'detail', params: { goodsid: data }});
