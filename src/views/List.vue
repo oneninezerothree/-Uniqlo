@@ -6,15 +6,21 @@
           v-for="(tab,index) in tabName"
           :key="index"
           :class="{'active':index==activeIdx}"
-          @click="[show(index),changeState()]"
+          @click="show(index,num),changeStaer();sortList(index,getdata.data.data,num)"
         >
           {{tab.title}}
-          <i v-if="tab.flag" :class="state? 'drop' :'litre' "></i>
+          <i v-if="tab.flag" :class=" state? 'drop' :'litre' "></i>
         </div>
       </div>
     </div>
-    <div class="pruductShow"  v-if="getdata.data">
-      <div class="productContent line-bottom" v-for="(item,index) in getdata.data.data" :key="index" :CommodityCode="item.CommodityCode">
+    <div class="pruductShow" v-if="getdata.data">
+      <div
+        class="productContent line-bottom"
+        v-for="(item,index) in getdata.data.data"
+        :key="index"
+        v-show ="getRenderList(item.zhonglei,item.fenlei)"
+        @click="goTo(item.CommodityId)"
+      >
         <div class="img">
           <!---->
           <img :src="item.SmallPic">
@@ -26,7 +32,7 @@
           <!---->
           <p class="price">
             <span class="priceRed">{{item.SellPrice}}</span>
-            <span class="standard" style="text-decoration: line-through;" v-if="item.SellPrice<item.OriginalPrice">{{item.OriginalPrice}}</span>
+            <span class="standard" style="text-decoration: line-through;">{{item.OriginalPrice}}</span>
             <span class="standard">{{item.Spec}}</span>
             <span class="addCart"></span>
             <!---->
@@ -45,34 +51,61 @@ import request from "../libs/request";
 
 export default {
   created() {
+    this.keyword = this.getKeyword();
+    
     this.getShopList();
-    this.$store.state.isShowMHeader = false;
-    this.$store.state.isShowMFooter = true;
   },
   data() {
     return {
       idx: 0,
       activeIdx: 0,
       state: true,
+      num:1,//升序1，降序2
       tabName: [
         { title: "销量", flag: false },
         { title: "新品", flag: false },
         { title: "价格", flag: true }
       ],
-      renderList: []
+      renderList: [],
+      keyword: "",
+      keyword2:"",
     };
   },
   methods: {
-    show(index) {
+    show(index,numbers) {
       this.idx = index;
       this.activeIdx = index;
-      
+      if(numbers == 1){
+        this.num = 2
+      } else if (numbers == 2) {
+        this.num =1
+      }
     },
-    changeState(){
-        if(this.activeIdx===2){
-           this.state=!this.state; 
-        }
-        
+    getKeyword() {
+      return this.$route.query.keyword;
+    },
+    getRenderList(names,fenleis) {
+      let a =  names.indexOf(this.keyword);
+      // console.log('query:----',this.$route.query.keyword2)
+      // console.log('fenleis:----',fenleis);
+      if (
+        this.keyword == "全部" &&
+        this.$route.query.keyword2 == fenleis
+      ) {
+        return true;
+      } else if (
+        a > -1  &&
+        this.$route.query.keyword2 == fenleis
+      ) {
+        return true;
+      } else {
+        return false;
+      }
+    },
+    changeStaer() {
+      if (this.activeIdx === 2) {
+        this.state = !this.state;
+      }
     },
     async getShopList() {
       const { g, p } = request;
@@ -83,12 +116,40 @@ export default {
       this.$store.state.shopList = data;
     },
     goTo(data) {
-        $route.push('/xiangqing?'+ data)
+      this.$router.push({ name: 'detail', params: { goodsid: data }});
+    },
+    sortList(idx,data,num){
+      //排序方法
+      //通过idx判断用价格、销量、code来排序
+      if(idx == 0){
+        //用销量排序
+        data.sort(function(a,b){
+          return a.sale - b.sale
+        })
+      }
+      else if (idx == 1){
+        //用商品code排序
+        data.sort(function(a,b){
+          return a.CommodityCode - b.CommodityCode
+        })
+      }
+      else if(idx == 2 && num==1){
+        //用商品售价升序
+        data.sort(function(a,b){
+          return a.SellPrice - b.SellPrice
+        })
+      }
+      else if(idx == 2 && num==2){
+        //用商品售价降序
+        data.sort(function(a,b){
+          return b.SellPrice - a.SellPrice
+        })
+      }
     }
   },
   computed: {
-        ...mapGetters(['getdata']),
-	},
+    ...mapGetters(["getdata"])
+  }
 };
 </script>
 <style lang="scss" scoped>
@@ -238,6 +299,24 @@ export default {
           background-size: 100% 100%;
         }
       }
+    }
+  }
+  .noMore {
+    position: relative;
+    width: 3.5rem;
+    height: 1rem;
+    margin: 1.5rem auto 0.5rem;
+    border-top: 1px solid #808080;
+    p {
+      font-size: 0.38rem;
+      color: #808080;
+      position: absolute;
+      top: -0.22rem;
+      left: 50%;
+      margin-left: -1.5rem;
+      background: #f4f4f4;
+      width: 3rem;
+      text-align: center;
     }
   }
 }
