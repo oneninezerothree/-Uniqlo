@@ -1,6 +1,7 @@
 {
-  "goodsName":"冷冻榴莲果肉" ,
+  "goodsName": "冷冻榴莲果肉",
   "fenlei": "jinKouShuiGuo",
+  "zhonglei": "榴莲",
   "CanAddToCart": true,
   "CommodityCode": "1386597",
   "CommodityTag": 0,
@@ -34,6 +35,7 @@
 {
   "goodsName": "越南红心火龙果",
   "fenlei": "jinKouShuiGuo",
+  "zhonglei": "火龙果",
   "CanAddToCart": true,
   "CommodityCode": "6000034337",
   "CommodityTag": 0,
@@ -49,17 +51,15 @@
   "CanNoReasonToReturnText": "不支持7天无理由退货",
   "CommodityId": 2,
   "CommodityName": "越南红心火龙果2个410g以上/个(大果)",
-  "CommodityPromotions": [
-    {
-      "IsJump": false,
-      "PromotionId": "8fd572a2-2498-458d-80ba-6cefe0e2a9e2",
-      "PromotionLevels": [],
-      "PromotionTitle": "特惠促销",
-      "PromotionType": 1,
-      "PromotionTypeText": "优惠",
-      "Sort": 1
-    }
-  ],
+  "CommodityPromotions": [{
+    "IsJump": false,
+    "PromotionId": "8fd572a2-2498-458d-80ba-6cefe0e2a9e2",
+    "PromotionLevels": [],
+    "PromotionTitle": "特惠促销",
+    "PromotionType": 1,
+    "PromotionTypeText": "优惠",
+    "Sort": 1,
+  }],
   "DeliveryTips": "16:00 前完成订单，预计明日(6月12日)送达",
   "Pictures": [
     "https://img10.yiguoimg.com/d/items/2019/190329/9288737695704701_500.jpg",
@@ -77,6 +77,7 @@
 {
   "goodsName": "阳光金奇异果",
   "fenlei": "jinKouShuiGuo",
+  "zhonglei": "奇异果",
   "CanAddToCart": true,
   "CommodityCode": "6000035014",
   "CommodityTag": 0,
@@ -92,21 +93,17 @@
   "CanNoReasonToReturnText": "不支持7天无理由退货",
   "CommodityId": 3,
   "CommodityName": "Zespri佳沛新西兰阳光金奇异果6个(114-134g/个)",
-  "CommodityPromotions": [
-    {
-      "IsJump": false,
-      "PromotionId": "01c30b39-7cd6-400c-b4ad-914e0e4f50f3",
-      "PromotionLevels": [
-        {
-          "LevelTitle": "满2件减10"
-        }
-      ],
-      "PromotionTitle": "2份立减10元",
-      "PromotionType": 1,
-      "PromotionTypeText": "优惠",
-      "Sort": 1
-    }
-  ],
+  "CommodityPromotions": [{
+    "IsJump": false,
+    "PromotionId": "01c30b39-7cd6-400c-b4ad-914e0e4f50f3",
+    "PromotionLevels": [{
+      "LevelTitle": "满2件减10",
+    }],
+    "PromotionTitle": "2份立减10元",
+    "PromotionType": 1,
+    "PromotionTypeText": "优惠",
+    "Sort": 1
+  }],
   "DeliveryTips": "16:00 前完成订单，预计明日(6月12日)送达",
   "Pictures": [
     "https://img09.yiguoimg.com/d/items/2019/190528/9288738114217660_500.jpg",
@@ -124,6 +121,7 @@
 {
   "goodsName": "埃及橙",
   "fenlei": "jinKouShuiGuo",
+  "zhonglei": "柑橘橙柚",
   "CanAddToCart": true,
   "CommodityCode": "6000034359",
   "CommodityTag": 0,
@@ -157,6 +155,7 @@
 {
   "goodsName": "红富士苹果",
   "fenlei": " guoChanShuiGuo",
+  "zhonglei": "苹果",
   "CanAddToCart": true,
   "CommodityCode": "6000034307",
   "CommodityTag": 0,
@@ -190,6 +189,7 @@
 {
   "goodsName": "薄皮西州蜜瓜",
   "fenlei": " guoChanShuiGuo",
+  "zhonglei": "瓜",
   "CanAddToCart": true,
   "CommodityCode": "6000034402",
   "CommodityTag": 0,
@@ -223,6 +223,7 @@
 {
   "goodsName": "海南水仙芒",
   "fenlei": " guoChanShuiGuo",
+  "zhonglei": "芒果",
   "CanAddToCart": true,
   "CommodityCode": "6000034326",
   "CommodityTag": 0,
@@ -256,6 +257,7 @@
 {
   "goodsName": "S级牛腩块",
   "fenlei": "jingXuanRouLei",
+  "zhonglei": "进口牛肉",
   "CanAddToCart": true,
   "CommodityCode": "1103749",
   "CommodityTag": 0,
@@ -271,21 +273,17 @@
   "CanNoReasonToReturnText": "不支持7天无理由退货",
   "CommodityId": 8,
   "CommodityName": "原膳澳洲精选S级牛腩块500g",
-  "CommodityPromotions": [
-    {
-      "IsJump": false,
-      "PromotionId": "ea7b1012-0093-4d89-8d70-2d4aebd9b03b",
-      "PromotionLevels": [
-        {
-          "LevelTitle": "满2件减33"
-        }
-      ],
-      "PromotionTitle": "第2件9.9元 ",
-      "PromotionType": 1,
-      "PromotionTypeText": "优惠",
-      "Sort": 1
-    }
-  ],
+  "CommodityPromotions": [{
+    "IsJump": false,
+    "PromotionId": "ea7b1012-0093-4d89-8d70-2d4aebd9b03b",
+    "PromotionLevels": [{
+      "LevelTitle": "满2件减33",
+    }],
+    "PromotionTitle": "第2件9.9元 ",
+    "PromotionType": 1,
+    "PromotionTypeText": "优惠",
+    "Sort": 1,
+  }],
   "DeliveryTips": "16:00 前完成订单，预计明日(6月12日)送达",
   "Pictures": [
     "https://img11.yiguoimg.com/d/items/2018/180929/9288731968218429_500.jpg",
@@ -303,6 +301,7 @@
 {
   "goodsName": "澳奎澳洲金钱腱",
   "fenlei": "jingXuanRouLei",
+  "zhonglei": "进口牛肉",
   "CanAddToCart": true,
   "CommodityCode": "1103753",
   "CommodityTag": 0,
@@ -318,21 +317,17 @@
   "CanNoReasonToReturnText": "不支持7天无理由退货",
   "CommodityId": 9,
   "CommodityName": "澳奎澳洲金钱腱500g",
-  "CommodityPromotions": [
-    {
-      "IsJump": false,
-      "PromotionId": "627b4b4a-a3ea-4218-9bac-a3af79b7bfaa",
-      "PromotionLevels": [
-        {
-          "LevelTitle": "满2件减29.5"
-        }
-      ],
-      "PromotionTitle": "第2件半价",
-      "PromotionType": 1,
-      "PromotionTypeText": "优惠",
-      "Sort": 1
-    }
-  ],
+  "CommodityPromotions": [{
+    "IsJump": false,
+    "PromotionId": "627b4b4a-a3ea-4218-9bac-a3af79b7bfaa",
+    "PromotionLevels": [{
+      "LevelTitle": "满2件减29.5",
+    }],
+    "PromotionTitle": "第2件半价",
+    "PromotionType": 1,
+    "PromotionTypeText": "优惠",
+    "Sort": 1,
+  }],
   "DeliveryTips": "16:00 前完成订单，预计明日(6月12日)送达",
   "Pictures": [
     "https://img11.yiguoimg.com/d/items/2019/190506/9288737927997094_500.jpg",
@@ -350,6 +345,7 @@
 {
   "goodsName": "澳洲原切牛肉丝",
   "fenlei": "jingXuanRouLei",
+  "zhonglei": "进口牛肉",
   "CanAddToCart": true,
   "CommodityCode": "1423151",
   "CommodityTag": 0,
@@ -365,21 +361,17 @@
   "CanNoReasonToReturnText": "不支持7天无理由退货",
   "CommodityId": 10,
   "CommodityName": "原膳澳洲原切牛肉丝120g",
-  "CommodityPromotions": [
-    {
-      "IsJump": false,
-      "PromotionId": "7523bc9e-739c-4d5d-b8c9-a6b3aca0c7ae",
-      "PromotionLevels": [
-        {
-          "LevelTitle": "满3件减27"
-        }
-      ],
-      "PromotionTitle": "3件5折",
-      "PromotionType": 1,
-      "PromotionTypeText": "优惠",
-      "Sort": 1
-    }
-  ],
+  "CommodityPromotions": [{
+    "IsJump": false,
+    "PromotionId": "7523bc9e-739c-4d5d-b8c9-a6b3aca0c7ae",
+    "PromotionLevels": [{
+      "LevelTitle": "满3件减27",
+    }],
+    "PromotionTitle": "3件5折",
+    "PromotionType": 1,
+    "PromotionTypeText": "优惠",
+    "Sort": 1,
+  }],
   "DeliveryTips": "16:00 前完成订单，预计明日(6月12日)送达",
   "Pictures": [
     "https://img11.yiguoimg.com/d/items/2018/180705/9288725529273573_500.jpg",
@@ -397,6 +389,7 @@
 {
   "goodsName": "澳洲精修牛腱子",
   "fenlei": "jingXuanRouLei",
+  "zhonglei": "进口牛肉",
   "CanAddToCart": true,
   "CommodityCode": "6000022150",
   "CommodityTag": 0,
@@ -429,6 +422,7 @@
 {
   "goodsName": "南美白虾仁",
   "fenlei": "haiXianShuiChan",
+  "zhonglei": "虾仁",
   "CanAddToCart": true,
   "CommodityCode": "106252",
   "CommodityTag": 0,
@@ -443,21 +437,17 @@
   "CanNoReasonToReturnText": "不支持7天无理由退货",
   "CommodityId": 12,
   "CommodityName": "原膳南美白虾仁（中）250g",
-  "CommodityPromotions": [
-    {
-      "IsJump": false,
-      "PromotionId": "0a2f1ebe-963e-4141-90aa-a38ba01bd0f4",
-      "PromotionLevels": [
-        {
-          "LevelTitle": "满2件减13"
-        }
-      ],
-      "PromotionTitle": "多份优惠 ",
-      "PromotionType": 1,
-      "PromotionTypeText": "优惠",
-      "Sort": 1
-    }
-  ],
+  "CommodityPromotions": [{
+    "IsJump": false,
+    "PromotionId": "0a2f1ebe-963e-4141-90aa-a38ba01bd0f4",
+    "PromotionLevels": [{
+      "LevelTitle": "满2件减13",
+    }],
+    "PromotionTitle": "多份优惠 ",
+    "PromotionType": 1,
+    "PromotionTypeText": "优惠",
+    "Sort": 1,
+  }],
   "DeliveryTips": "16:00 前完成订单，预计明日(6月12日)送达",
   "Pictures": [
     "https://img09.yiguoimg.com/d/items/2017/171130/9288715872969598_500.jpg",
@@ -474,8 +464,8 @@
 },
 {
   "goodsName": "冷冻巴沙鱼片",
-  "goodsName": ,
   "fenlei": "haiXianShuiChan",
+  "zhonglei": "鱼",
   "CanAddToCart": true,
   "CommodityCode": "1002055",
   "CommodityTag": 0,
@@ -490,21 +480,17 @@
   "CanNoReasonToReturnText": "不支持7天无理由退货",
   "CommodityId": 13,
   "CommodityName": "越南冷冻巴沙鱼片280g",
-  "CommodityPromotions": [
-    {
-      "IsJump": false,
-      "PromotionId": "c24181f4-9b94-42e2-8658-d40860f256c1",
-      "PromotionLevels": [
-        {
-          "LevelTitle": "满2件减3.7"
-        }
-      ],
-      "PromotionTitle": "多份优惠",
-      "PromotionType": 1,
-      "PromotionTypeText": "优惠",
-      "Sort": 1
-    }
-  ],
+  "CommodityPromotions": [{
+    "IsJump": false,
+    "PromotionId": "c24181f4-9b94-42e2-8658-d40860f256c1",
+    "PromotionLevels": [{
+      "LevelTitle": "满2件减3.7",
+    }],
+    "PromotionTitle": "多份优惠",
+    "PromotionType": 1,
+    "PromotionTypeText": "优惠",
+    "Sort": 1,
+  }],
   "DeliveryTips": "16:00 前完成订单，预计明日(6月12日)送达",
   "Pictures": [
     "https://img13.yiguoimg.com/d/items/2017/171109/9288714859225961_500.jpg",
@@ -522,6 +508,7 @@
 {
   "goodsName": "原味三文鱼排",
   "fenlei": "haiXianShuiChan",
+  "zhonglei": "三文鱼",
   "CanAddToCart": true,
   "CommodityCode": "196073",
   "CommodityTag": 0,
@@ -536,21 +523,17 @@
   "CanNoReasonToReturnText": "不支持7天无理由退货",
   "CommodityId": 14,
   "CommodityName": "美威欧式原味三文鱼排（2片装）250g",
-  "CommodityPromotions": [
-    {
-      "IsJump": false,
-      "PromotionId": "4ec36eb4-8bff-4cce-96ad-8e11138a0ca0",
-      "PromotionLevels": [
-        {
-          "LevelTitle": "满2件减43"
-        }
-      ],
-      "PromotionTitle": "多份优惠",
-      "PromotionType": 1,
-      "PromotionTypeText": "优惠",
-      "Sort": 1
-    }
-  ],
+  "CommodityPromotions": [{
+    "IsJump": false,
+    "PromotionId": "4ec36eb4-8bff-4cce-96ad-8e11138a0ca0",
+    "PromotionLevels": [{
+      "LevelTitle": "满2件减43",
+    }],
+    "PromotionTitle": "多份优惠",
+    "PromotionType": 1,
+    "PromotionTypeText": "优惠",
+    "Sort": 1,
+  }],
   "DeliveryTips": "16:00 前完成订单，预计明日(6月12日)送达",
   "Pictures": [
     "https://img12.yiguoimg.com/d/items/2018/180613/9288724483351757_500.jpg",
@@ -568,6 +551,7 @@
 {
   "goodsName": "西红柿",
   "fenlei": "xinXianShuCai",
+  "zhonglei": "茄果/瓜果类",
   "CanAddToCart": true,
   "CommodityCode": "6000018802",
   "CommodityTag": 0,
@@ -582,15 +566,12 @@
   "CanNoReasonToReturnText": "不支持7天无理由退货",
   "CommodityId": 15,
   "CommodityName": "海阳普罗旺斯西红柿2.25kg",
-  "CommodityPromotions": [
-    {
+  "CommodityPromotions": [{
       "IsJump": true,
       "PromotionId": "911d5af2-5f81-4f6c-a9cf-9b8b07fece69",
-      "PromotionLevels": [
-        {
-          "LevelTitle": "满0件减0"
-        }
-      ],
+      "PromotionLevels": [{
+        "LevelTitle": "满0件减0",
+      }],
       "PromotionTitle": "鲜货直发 ",
       "PromotionType": 2,
       "PromotionTypeText": "满减",
@@ -603,7 +584,7 @@
       "PromotionTitle": "该商品不支持U币抵扣、不能使用优惠券",
       "PromotionType": 5,
       "PromotionTypeText": "限制",
-      "Sort": 7
+      "Sort": 7,
     }
   ],
   "DeliveryTips": "16:00 前完成订单，预计明日(6月12日)送达",
@@ -623,6 +604,7 @@
 {
   "goodsName": "福建水果玉米",
   "fenlei": "xinXianShuCai",
+  "zhonglei": "茄果/瓜果类",
   "CanAddToCart": true,
   "CommodityCode": "6000018804",
   "CommodityTag": 0,
@@ -637,15 +619,12 @@
   "CanNoReasonToReturnText": "不支持7天无理由退货",
   "CommodityId": 16,
   "CommodityName": "福建水果玉米2kg",
-  "CommodityPromotions": [
-    {
+  "CommodityPromotions": [{
       "IsJump": true,
       "PromotionId": "911d5af2-5f81-4f6c-a9cf-9b8b07fece69",
-      "PromotionLevels": [
-        {
-          "LevelTitle": "满0件减0"
-        }
-      ],
+      "PromotionLevels": [{
+        "LevelTitle": "满0件减0",
+      }],
       "PromotionTitle": "鲜货直发 ",
       "PromotionType": 2,
       "PromotionTypeText": "满减",
@@ -658,7 +637,7 @@
       "PromotionTitle": "该商品不支持U币抵扣、不能使用优惠券",
       "PromotionType": 5,
       "PromotionTypeText": "限制",
-      "Sort": 7
+      "Sort": 7,
     }
   ],
   "DeliveryTips": "16:00 前完成订单，预计明日(6月12日)送达",
@@ -678,6 +657,7 @@
 {
   "goodsName": "山东烟薯",
   "fenlei": "xinXianShuCai",
+  "zhonglei": "根茎类",
   "CanAddToCart": true,
   "CommodityCode": "6000022464",
   "CommodityTag": 0,
@@ -692,15 +672,12 @@
   "CanNoReasonToReturnText": "不支持7天无理由退货",
   "CommodityId": 17,
   "CommodityName": "山东烟薯2.5kg",
-  "CommodityPromotions": [
-    {
+  "CommodityPromotions": [{
       "IsJump": true,
       "PromotionId": "911d5af2-5f81-4f6c-a9cf-9b8b07fece69",
-      "PromotionLevels": [
-        {
-          "LevelTitle": "满0件减0"
-        }
-      ],
+      "PromotionLevels": [{
+        "LevelTitle": "满0件减0",
+      }],
       "PromotionTitle": "鲜货直发 ",
       "PromotionType": 2,
       "PromotionTypeText": "满减",
@@ -713,19 +690,19 @@
       "PromotionTitle": "该商品不支持U币抵扣、不能使用优惠券",
       "PromotionType": 5,
       "PromotionTypeText": "限制",
-      "Sort": 7
+      "Sort": 7,
     }
   ],
   "DeliveryTips": "16:00 前完成订单，预计明日(6月12日)送达",
   "Pictures": [
-    "https://img09.yiguoimg.com/d/items/2019/190104/9288736405366308_500.jpg",
-    "https://img10.yiguoimg.com/d/items/2019/190104/9288736405333540_500.jpg",
-    "https://img11.yiguoimg.com/d/items/2019/190104/9288736405300772_500.jpg"
+    "https://img14.yiguoimg.com/d/items/2019/190221/9288737368516181_500.jpg",
+    "https://img11.yiguoimg.com/d/items/2019/190221/9288737368548949_500.jpg",
+    "https://img09.yiguoimg.com/d/items/2019/190221/9288737368483413_500.jpg"
   ],
-  "PlaceOfOrigin": "山东烟台",
+  "PlaceOfOrigin": "山东莱阳",
   "PromotionType": 0,
   "ShippingAddress": "广东 广州市 天河区",
-  "SmallPic": "https://img11.yiguoimg.com/d/items/2019/190104/9288736405104164_300.jpg",
+  "SmallPic": "https://img11.yiguoimg.com/d/items/2019/190221/9288737368417877_300.jpg",
   "Spec": "2.5kg/份",
   "SubTitle": "产地直发，下单后48小时内发货，仅可与海阳、山东蔬菜合单",
   "Unit": "份"
@@ -733,6 +710,7 @@
 {
   "goodsName": "海阳白玉黄瓜",
   "fenlei": "xinXianShuCai",
+  "zhonglei": "茄果/瓜果类",
   "CanAddToCart": true,
   "CommodityCode": "6000018801",
   "CommodityTag": 0,
@@ -747,15 +725,12 @@
   "CanNoReasonToReturnText": "不支持7天无理由退货",
   "CommodityId": 18,
   "CommodityName": "海阳白玉黄瓜2.5kg",
-  "CommodityPromotions": [
-    {
+  "CommodityPromotions": [{
       "IsJump": true,
       "PromotionId": "911d5af2-5f81-4f6c-a9cf-9b8b07fece69",
-      "PromotionLevels": [
-        {
-          "LevelTitle": "满0件减0"
-        }
-      ],
+      "PromotionLevels": [{
+        "LevelTitle": "满0件减0",
+      }],
       "PromotionTitle": "鲜货直发 ",
       "PromotionType": 2,
       "PromotionTypeText": "满减",
@@ -768,7 +743,7 @@
       "PromotionTitle": "该商品不支持U币抵扣、不能使用优惠券",
       "PromotionType": 5,
       "PromotionTypeText": "限制",
-      "Sort": 7
+      "Sort": 7,
     }
   ],
   "DeliveryTips": "16:00 前完成订单，预计明日(6月12日)送达",
@@ -788,6 +763,7 @@
 {
   "goodsName": "农百鲜樱桃谷鸭",
   "fenlei": "qinLeiDanPin",
+  "zhonglei": "鸭",
   "CanAddToCart": true,
   "CommodityCode": "104142",
   "CommodityTag": 0,
@@ -802,21 +778,17 @@
   "CanNoReasonToReturnText": "不支持7天无理由退货",
   "CommodityId": 19,
   "CommodityName": "农百鲜樱桃谷鸭950g",
-  "CommodityPromotions": [
-    {
-      "IsJump": false,
-      "PromotionId": "cda2063f-faeb-4ffb-a3e9-fc9050804584",
-      "PromotionLevels": [
-        {
-          "LevelTitle": "满2件减29.9"
-        }
-      ],
-      "PromotionTitle": "第2件0元",
-      "PromotionType": 1,
-      "PromotionTypeText": "优惠",
-      "Sort": 1
-    }
-  ],
+  "CommodityPromotions": [{
+    "IsJump": false,
+    "PromotionId": "cda2063f-faeb-4ffb-a3e9-fc9050804584",
+    "PromotionLevels": [{
+      "LevelTitle": "满2件减29.9",
+    }],
+    "PromotionTitle": "第2件0元",
+    "PromotionType": 1,
+    "PromotionTypeText": "优惠",
+    "Sort": 1,
+  }],
   "DeliveryTips": "16:00 前完成订单，预计明日(6月12日)送达",
   "Pictures": [
     "https://img10.yiguoimg.com/d/items/2018/180817/9288729469953297_500.jpg",
@@ -834,6 +806,7 @@
 {
   "goodsName": "太阳谷鸡翅中",
   "fenlei": "qinLeiDanPin",
+  "zhonglei": "鸡",
   "CanAddToCart": true,
   "CommodityCode": "1286573",
   "CommodityTag": 2,
@@ -848,21 +821,17 @@
   "CanNoReasonToReturnText": "不支持7天无理由退货",
   "CommodityId": 20,
   "CommodityName": "太阳谷鸡翅中500g",
-  "CommodityPromotions": [
-    {
-      "IsJump": false,
-      "PromotionId": "4f9347c6-47f3-4464-b127-a28b2ddc929a",
-      "PromotionLevels": [
-        {
-          "LevelTitle": "满2件减10"
-        }
-      ],
-      "PromotionTitle": "2件减10元",
-      "PromotionType": 1,
-      "PromotionTypeText": "优惠",
-      "Sort": 1
-    }
-  ],
+  "CommodityPromotions": [{
+    "IsJump": false,
+    "PromotionId": "4f9347c6-47f3-4464-b127-a28b2ddc929a",
+    "PromotionLevels": [{
+      "LevelTitle": "满2件减10",
+    }],
+    "PromotionTitle": "2件减10元",
+    "PromotionType": 1,
+    "PromotionTypeText": "优惠",
+    "Sort": 1,
+  }],
   "DeliveryTips": "16:00 前完成订单，预计明日(6月12日)送达",
   "Pictures": [
     "https://img11.yiguoimg.com/e/items/2017/170523/9288708202832567_500.jpg",
@@ -880,6 +849,7 @@
 {
   "goodsName": "太阳谷鸡琵琶腿",
   "fenlei": "qinLeiDanPin",
+  "zhonglei": "鸡",
   "CanAddToCart": true,
   "CommodityCode": "1237333",
   "CommodityTag": 0,
