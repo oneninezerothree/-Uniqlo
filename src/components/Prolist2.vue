@@ -5,7 +5,7 @@
 				<h3>— {{ title }} —</h3>
 			</div>
 			<ul class="twoproduct">
-				<li v-for="(item, index) in con.data" v-if="(item.fenlei==sort)">
+				<li v-for="(item, index) in con.data" v-if="(item.fenlei==sort)" @click="toDetail(item.CommodityId)"> 
 					<div class="proitem">
 						<div class="pic">
 							<a href="javascript:;"><img :src="item.SmallPic" /></a>
@@ -36,6 +36,12 @@ export default {
 	},
 	computed: {
 		...mapGetters(['getdata'])
+	},
+	methods: {
+		toDetail(id){
+			// console.log(id)
+			this.$router.push({ name: 'detail', params: { goodsid: id }})
+		}
 	}
 };
 </script>
