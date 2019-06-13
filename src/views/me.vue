@@ -154,6 +154,7 @@ export default {
 	created() {
 		this.$store.state.isShowMHeader = false;
 		this.$store.state.isShowMFooter = true;
+		this.$store.state.isloading = false;
 	},
 	methods:{
 	  toLogin(){

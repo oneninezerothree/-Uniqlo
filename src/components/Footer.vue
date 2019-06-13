@@ -2,7 +2,7 @@
 	<div class="footer" v-show="isShowMFooter">
 		<div class="footer-in">
 			<a v-for="(item, index) in tabs" :key="index" class="list" @click="toggleTab(index)">
-				<i class="icon" :style="{ backgroundImage:now===index?'url(' + item.pictureUrl2 + ')':'url(' + item.pictureUrl1 + ')' }"></i>
+				<i class="icon" :style="{ backgroundImage:$route.name === item.url?'url(' + item.pictureUrl2 + ')':'url(' + item.pictureUrl1 + ')' }"></i>
 				{{ item.name }}
 			</a>
 			

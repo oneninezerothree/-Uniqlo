@@ -39,6 +39,7 @@ export default {
 	},
 	created() {
 		this.getShopList();
+		this.$store.state.isloading = true;
 		this.$store.state.isShowMHeader = true;
 		this.$store.state.isShowMFooter = true;
 		// console.log(this.$store.state)
@@ -56,6 +57,7 @@ export default {
 			const data = await g({
 				url: 'https://www.easy-mock.com/mock/5cf6683dd44e0c5e99486044/example/yiguolist#!method=get'
 			});
+			this.$store.state.isloading = false;
 			this.$store.state.shopList = data;
 		}
 	},

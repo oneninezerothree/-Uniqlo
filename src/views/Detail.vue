@@ -99,6 +99,7 @@ export default {
 	created() {
 		this.$store.state.isShowMHeader = false;
 		this.$store.state.isShowMFooter = true;
+		this.$store.state.isloading = true;
 		this.getShopList();
 	},
 	data() {
@@ -155,6 +156,7 @@ export default {
 				url: 'https://www.easy-mock.com/mock/5cf6683dd44e0c5e99486044/example/yiguolist#!method=get'
 			});
 			this.goods = data.data.data;
+			this.$store.state.isloading = false;
 			this.goods.map(item => {
 				if (item.CommodityId == this.$route.params.goodsid) {
 					this.arr = item;

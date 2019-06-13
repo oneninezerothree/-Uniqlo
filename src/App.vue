@@ -4,6 +4,7 @@
 		<Header />
 		<Footer />
 		<Totop />
+		<Loading />
 	</div>
 </template>
 <script>
@@ -11,11 +12,16 @@ import Vue from 'vue';
 import Header from './components/Header.vue';
 import Footer from './components/Footer.vue';
 import Totop from '@/components/Totop.vue';
+import Loading from '@/components/Loading.vue';
 export default Vue.extend({
 	components: {
 		Header,
 		Footer,
-		Totop
+		Totop,
+		Loading
+	},
+	mounted() {
+		
 	}
 });
 </script>
@@ -26,7 +32,7 @@ export default Vue.extend({
 	padding: 0;
 }
 #app {
-	overflow-x:hidden;
+	overflow-x: hidden;
 	width: 100%;
 	font-family: 'Avenir', Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;

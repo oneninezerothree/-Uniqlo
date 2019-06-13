@@ -16,7 +16,7 @@
 							<div class="price">
 								<strong>¥{{item.SellPrice}}</strong>
 								{{item.Unit}}
-								<i class="price-addcart"></i>
+								<i class="price-addcart" @click.stop="increase()"></i>
 							</div>
 						</div>
 					</div>
@@ -41,6 +41,10 @@ export default {
 		toDetail(id){
 			// console.log(id)
 			this.$router.push({ name: 'detail', params: { goodsid: id }})
+		},
+		increase(){
+			// 添加购物车
+			console.log(1)
 		}
 	}
 };
