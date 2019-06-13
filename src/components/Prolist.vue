@@ -16,7 +16,7 @@
 			<div class="blockwrap prolist-blockwrap">
 				<ul>
 					<li v-for="(item,index) in (getdata.data.data)" :key='index' v-if="index%3==0">
-						<div class="proitem">
+						<div class="proitem" @click="toDetail(item.CommodityId)">
 							<div class="pic">
 								<a><img :src="item.SmallPic" /></a>
 							</div>
@@ -53,6 +53,12 @@ export default {
 	computed: {
 		...mapGetters(['getdata'])
 	},
+	methods: {
+		toDetail(id){
+			// console.log(id)
+			this.$router.push({ name: 'detail', params: { goodsid: id }})
+		}
+	}
 };
 </script>
 
