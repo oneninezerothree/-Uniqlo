@@ -1,9 +1,9 @@
 <template>
 	<div id="banner">
-		<swiper :options="swiperOption" class="swiper-wrap" ref="mySwiper" v-if="banner.length != 0">
-			<swiper-slide v-for="(item, index) in banner" :key="index"><img :src="item.image" alt="" /></swiper-slide>
+		<swiper :options="swiperOption" class="swiper-wrap" ref="mySwiper">
+			<swiper-slide v-for="(item, index) in this.banner" :key="index"><img :src="item.image" alt="" /></swiper-slide>
 			<!-- 常见的小圆点 -->
-			<div class="swiper-pagination" v-for="(item, index) in banner" :key="index" slot="pagination"></div>
+			<div class="swiper-pagination" slot="pagination"></div> 
 		</swiper>
 	</div>
 </template>

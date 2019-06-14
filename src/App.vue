@@ -1,10 +1,12 @@
 <template>
 	<div id="app">
-		<router-view />
-		<Header />
-		<Footer />
-		<Totop />
-		<Loading />
+		<!-- <keep-alive> -->
+			<router-view />
+		<!-- </keep-alive> -->
+			<Header />
+			<Footer />
+			<Totop />
+			<Loading />
 	</div>
 </template>
 <script>
@@ -20,9 +22,7 @@ export default Vue.extend({
 		Totop,
 		Loading
 	},
-	mounted() {
-		
-	}
+	mounted() {}
 });
 </script>
 <style lang="scss">

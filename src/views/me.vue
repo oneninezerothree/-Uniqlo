@@ -151,7 +151,7 @@
 </template>
 <script>
 export default {
-	created() {
+	mounted() {
 		this.$store.state.isShowMHeader = false;
 		this.$store.state.isShowMFooter = true;
 		this.$store.state.isloading = false;
